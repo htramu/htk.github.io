@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Newest Game"
-summary: "Lead Programmer and Designer"
-date:   2022-10-09 15:39:40
+title:  "BounZy"
+summary: "Solo Design Effort"
+date:   
 preview: /assets/postpreview.png
 ---
 
-![Picture 1](/assets/fullsize.png)
+![Picture 1](/assets/bounzy-large1.png)
 
 Here's some impressive stuff I did:
 
