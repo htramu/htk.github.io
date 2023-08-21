@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Other Stuff"
-permalink: /other_stuff/
+permalink: /otherstuff/
 ---
 
 Here's my resume:
