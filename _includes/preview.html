@@ -3,7 +3,7 @@
         <div class="column column-33">
             <div class="preview-panel">
                 <a href="{{ post.url | prepend: site.baseurl }}">
-                    <img onmouseover="this.src={{ post.preview }}" onmouseout="this.src={{ post.previewa }}" src="{{ post.previewa }}">
+                    <img onmouseover="this.src='{{ post.preview }}'" onmouseout="this.src='{{ post.previewa }}'" src="{{ post.previewa }}">
                 </a>
                 <div class="post-title">{{ post.title }}</div>
 				<div class="post-summary">{{ post.summary }}</div>
