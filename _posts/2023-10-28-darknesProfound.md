@@ -6,9 +6,9 @@ date:   2023-10-28 00:00:00
 preview: /assets/DPLogo.png
 ---
 
-![Picture 1](/Dp_1.png)
-![Picture 2](/Dp_2.png)
-![Picture 3](/Dp_3.png)
+![Picture 1](/DP_1.png)
+![Picture 2](/DP_2.png)
+![Picture 3](/DP_3.png)
 
 This is my second jam submission, and it marks my first solo jam attendance, created for the [Scream Jam 2023](https://htramu.itch.io/darkness-profound). It was made using the free version of the Construct 3 engine and heavily utilizes blend modes and the Shadowlight plugin to create an enveloping darkness effect around the player. All art and sound assets, except for sprites like the map and inventory screen, logos, etc., are from external sources.
 
