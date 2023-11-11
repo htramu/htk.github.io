@@ -5,7 +5,7 @@ summary: "Gameplay and Level Design"
 date:   2023-10-28 00:00:00
 preview: /assets/DPLogo.png
 ---
-## Gameplay Video
+### Gameplay Video
 ---------------------------
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gxZ5lGn4z0Y?si=e6YpI_lLaDrK_uQR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -13,7 +13,7 @@ preview: /assets/DPLogo.png
 
 This is my second jam submission, and it marks my first solo jam attendance, created for the [Scream Jam 2023](https://htramu.itch.io/darkness-profound). 
 
- **Jam judge feedback:**
+ **Feedback from a Jam Judge**
 
 ![Picture 4](/assets/darknessProfound_4.png)
 
