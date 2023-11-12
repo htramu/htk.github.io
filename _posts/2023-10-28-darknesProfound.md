@@ -13,7 +13,7 @@ preview: /assets/DPLogo.png
 
 This is my second jam submission, and it marks my first solo jam attendance, created for the [Scream Jam 2023](https://htramu.itch.io/darkness-profound). 
 
- **Feedback from a Jam Judge**
+ **Feedback of a Jam Judge**
 
 ![Picture 4](/assets/darknessProfound_4.png)
 
@@ -30,6 +30,6 @@ Game was created using the free version of the Construct 3 engine and heavily ut
 **Multiple Endings:** Players' decisions throughout the game influence the outcome. The game offers three distinct ending ranks, depending on choices made, encouraging replayability.
 
 
-[One page GDD](/assets/DP_one_page_GDD.pdf)
+*[One page GDD](/assets/DP_one_page_GDD.pdf)*
 
 <iframe frameborder="0" src="https://itch.io/embed/2318085" width="552" height="167"><a href="https://htramu.itch.io/darkness-profound">Darkness Profound by Umarth</a></iframe>
