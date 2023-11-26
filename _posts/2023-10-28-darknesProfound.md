@@ -19,15 +19,6 @@ This is my second jam submission, and it marks my first solo jam attendance, cre
 
 Game was created using the free version of the Construct 3 engine and heavily utilizes blend modes and the Shadowlight plugin to create an enveloping darkness effect around the player. All art and sound assets, except for sprites like the map and inventory screen, logos, etc., are from external sources.
 
-**Perspective and Controls:** The game features a top-down perspective, to be played with classic WASD and Mouse movement combo. Players slow movement and lack of sprint mechanic reinforces survivial horror aspect.
-
-**Survival Horror:** It incorporates survival horror elements, creating tension and challenge. Players must manage a limited ammo supply, finding and conserving bullets is vital for survival or go for stealth by turning their torch off.
-
-**Zombie Threat:** The primary adversaries in the game are zombies. The undead roam the game world, adding to the sense of dread.
-
-**Atmospheric Setting:** The game excels in creating a haunting atmosphere, with dimly lit environments, unsettling sounds, and a foreboding ambiance.
-
-**Multiple Endings:** Players' decisions throughout the game influence the outcome. The game offers three distinct ending ranks, depending on choices made, encouraging replayability.
 
 
 *[One page GDD](/assets/DP_one_page_GDD.pdf)*

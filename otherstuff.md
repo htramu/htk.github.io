@@ -8,11 +8,12 @@ permalink: /otherstuff/
 
 ### Meteor Awareness
 
-![Picture 1](/assets/fullsize.png)
-![Picture 1](/assets/fullsize.png)
+![Picture 1](/assets/metAwe.png)
 
 Meteor Awareness is my first ever attempt to create a game. It is a paper tabletop game that can be played with 2-6 players, using only a dice and the paper layout below. 
 
+*[Game Board](/assets/meteoriteAwareness.pdf)*
+*[Game Rules](/assets/meteoriteAwareness - Rules.pdf)*
 
 ## Drawings
 
