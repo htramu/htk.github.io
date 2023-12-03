@@ -11,13 +11,13 @@ preview: /assets/DPLogo.png
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gxZ5lGn4z0Y?si=e6YpI_lLaDrK_uQR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ---------------------------
 
-This is my second jam submission, and it marks my first solo jam attendance, created for the [Scream Jam 2023](https://htramu.itch.io/darkness-profound). 
+This is my second jam submission, created for the [Scream Jam 2023](https://htramu.itch.io/darkness-profound). The overall theme for the jam was "Horror" and the jam ran for a week long.
 
- **Feedback of a Jam Judge**
+I decided to participate solo in this jam instead of entering with a team.
 
-![Picture 4](/assets/darknessProfound_4.png)
+Game was created using the free version of the Construct 3 engine and heavily utilizes blend modes and the Shadowlight plugin to create an enveloping darkness effect around the player. 
 
-Game was created using the free version of the Construct 3 engine and heavily utilizes blend modes and the Shadowlight plugin to create an enveloping darkness effect around the player. All art and sound assets, except for sprites like the map and inventory screen, logos, etc., are from external sources.
+All art and sound assets, except for sprites like the map and inventory screen, logos, etc., are from external sources.
 
 
 

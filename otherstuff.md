@@ -4,7 +4,7 @@ title: "Other Stuff"
 permalink: /otherstuff/
 ---
 
-## Paper Tabletop Game Projects
+## Paper Tabletop Game Project
 
 ### Meteor Awareness
 
