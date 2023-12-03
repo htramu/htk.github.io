@@ -21,6 +21,4 @@ All art and sound assets, except for sprites like the map and inventory screen, 
 
 
 
-*[One page GDD](/assets/DP_one_page_GDD.pdf)*
-
 <iframe frameborder="0" src="https://itch.io/embed/2318085" width="552" height="167"><a href="https://htramu.itch.io/darkness-profound">Darkness Profound by Umarth</a></iframe>

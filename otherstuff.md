@@ -14,7 +14,7 @@ Meteor Awareness is my first ever attempt to create a game. It is a paper tablet
 
 *[Game Board](/assets/meteoriteAwareness.pdf)*
 
-*[Game Rules](/assets/meteoriteAwareness - Rules.pdf)*
+*[Game Rules](/assets/meteoriteAwareness-Rules.pdf)*
 
 ## Drawings
 
