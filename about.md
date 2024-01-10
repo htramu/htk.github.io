@@ -3,10 +3,11 @@ layout: page
 title: "About Me"
 permalink: /about/
 ---
+
 <table border="0" cellspacing="0" cellpadding="10">
     <tr>
         <td>
-            <img src="/assets/aboutme.jpg" alt="About Me Image">
+            <img src="/assets/aboutme.jpg" alt="About Me Image" width="1024">
         </td>
         <td>
             <p>
