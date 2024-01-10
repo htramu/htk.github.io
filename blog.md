@@ -28,3 +28,18 @@ Many turn-based combat is like this: Player rushes forward units in order to eli
 First mechanic is the steadiness mechanic. In developers’ words; “It represents a unit's ability to take action competently at a given moment in the midst of battle.” Steadiness value effects “attack accuracy” and “final actions” of the units, but only accuracy will be addressed. Steadiness is reduced by unit movement, tank turret rotation and/or target acquisition and the suppression value of the unit. When a unit moves (rotation also counts as moving), depending the type of the unit, steadiness gets decreased by certain point; for vehicles 20% per tile and infantry 10%. This value is subtracted from a base accuracy value of 100%. 
 
 [^1]: And misses with 95% percent accuracy :) – I am looking at you XCOM: https://www.youtube.com/watch?v=zAThQV-vj08 
+
+
+### Lessons from Game Jams
+
+1. If a single polygon moves, playtesting should begin. This is an exaggeration, of course, but it underscores the importance of early playtesting. In my first jam, GDFG TEAM JAM #3, we couldn’t discover that our coyote timer was broken until our game, 'run.u.run,' was published. In both of my jams, I became so accustomed to the controls and mechanics that I failed to notice the floaty jumping in 'run.u.run.' Even worse, I wasn’t aware that I had not implemented diagonal movement in 'Darkness Profound' (my Scream Jam 2023 submission where I go solo) until the last minute! There was almost zero playtesting in both jams.
+
+2. No one reads instructions, so a tutorial is a must. Write even the nicest, simplest, easiest-to-understand, and brief instructions; no one reads them (slight exaggeration). Some argue that tutorials are unnecessary, but I believe they must be implemented. They should be in-game, designed to be an organic part of the game, for example, a dedicated level with a story hook.
+
+3. Jams are microcosms of the game development industry, such as:
+
+- Time constraints are a constant challenge in game jams, mirroring the broader game development process.
+
+- Success hinges on assembling the right team. In my first Jam, our team struggled to allocate enough time, resulting in failure. With my last-minute efforts, I barely published the game. Conversely, opting to go solo in my second jam, I realized it was a significant mistake given the game's scope—it truly required a team effort.
+
+- Advertising plays a pivotal role. In my second jam, I dedicated time to extensive promotion to ensure my game garnered a high number of ratings. But games that are better than mine, that did not paid attention to announce themselves, went unnoticed and get with lower rating numbers.
