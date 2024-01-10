@@ -2,13 +2,11 @@
 layout: page
 title: "About Me"
 permalink: /about/
----
 
 <table border="0" cellspacing="0" cellpadding="10">
     <tr>
-        <!-- Left column with image -->
         <td>
-            <img src="/assets/aboutme.jpg" alt="About Me Image" width="750">
+            <img src="/assets/aboutme.jpg" alt="About Me Image">
         </td>
         <td>
             <p>
