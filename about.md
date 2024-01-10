@@ -4,6 +4,21 @@ title: "About Me"
 permalink: /about/
 ---
 
-![Picture 1](/assets/aboutme.jpg)
 
-I am a hobbyist game designer aiming for a professional game design job. I love working as a systems designer and gameplay mechanics designer, but as an indie gamedev, I am exposed to level design, coding, writing, UI design and art.
+
+<table border="0" cellspacing="0" cellpadding="10">
+    <tr>
+        <!-- Left column with image -->
+        <td>
+            <img src="/assets/aboutme.jpg" alt="About Me Image" width="400">
+        </td>
+        <td>
+            <p>
+                I am a hobbyist game designer aiming for a professional game design job. 
+                I love working as a systems designer and gameplay mechanics designer, 
+                but as an indie gamedev, I am exposed to level design, coding, writing, 
+                UI design, and art.
+            </p>
+        </td>
+    </tr>
+</table>
