@@ -4,6 +4,30 @@ title: "Blog"
 permalink: /blog/
 ---
 <style>
+        nav {
+            position: fixed;
+            width: 400px;
+            height: 400px;
+            background-color: #f0f0f0;
+            padding: 20px;
+            box-sizing: border-box;
+            overflow-y: auto; /* Add scroll bar if content overflows */
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            margin-bottom: 10px;
+        }
+
+        section {
+            margin-left: 420px; /* Adjusted for the fixed navigation width */
+        }
+		
         p {
             text-align: justify;
         }
