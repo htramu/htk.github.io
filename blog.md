@@ -3,8 +3,21 @@ layout: page
 title: "Blog"
 permalink: /blog/
 ---
+### Contents
 
-### Analyzing the Missteps: A Post-Mortem of Darkness Profound 
+
+<nav>
+    <ul>
+        <li><a href="#section1">Analyzing the Missteps: A Post-Mortem of Darkness Profound</a></li>
+        <li><a href="#section2">Beyond Difficulty: Examining the Design of the Vice City's Demolition Man</a></li>
+        <li><a href="#section3">An in Depth Look of The Troop's Accuracy Mechanics</a></li>
+		<li><a href="#section4">Lessons from Game Jams  </a></li>
+    </ul>
+</nav>
+
+<section id="section1">
+    <h2>Analyzing the Missteps: A Post-Mortem of Darkness Profound</h2>
+</section>
 
 Participating in game jams is a thrilling yet challenging experience, demanding a unique blend of creativity, skill, and time management. The Scream Jam 2023, with 494 total submissions, marked a significant attempt for many game developers.  In this jam venture, I’ve submitted my game **[Darkness Profound](https://htramu.github.io/2023/10/28/darknesProfound/)**, which received numerous 3-point ratings out of 5 that Gauss would be proud if he’d saw this rating distribution graphic: 
 
@@ -16,15 +29,22 @@ Based on the enveloping darkness theme, I devised two design pillars: Health and
 
 ![Picture 2](/assets/DP_designPillars.png)
 
-Sanity decreases when the player turns the torchlight off and goes into stealth mode. Sanity would decrease permanently, with no way to replenish it. When it reaches zero, it results in a game over. The main design point here is to create tension between resources – should the player opt for stealth and risk losing sanity, or should they engage in combat, risking limited ammo and health?
-However, it became apparent that due to the limitations of Construct 3's free version and the constrained time available for game development, I could not implement the sanity system. This made the stealth system almost useless. 
-With the wrong scope chosen, game lost one of its main design pillars leading to incomplete gameplay. 
+Sanity decreases when the player turns the flashlight off and goes into stealth mode. Sanity would decrease permanently, with no way to replenish it. When it reaches zero, it results in a game over. The main design point here is to create tension between resources – should the player opt for stealth and risk losing sanity, or should they engage in combat, risking limited ammo and health?
+However, it became apparent that due to the limitations of Construct 3's free version and the constrained time available for game development, I could not implement the sanity system.  With the wrong scope chosen, game lost one of its main design pillars leading to incomplete gameplay.  This also made the stealth mechanics almost useless which will be the following subject. 
+
+Stealth system:
+Another bite more than I can chew is the stealth system. Designing and implementing meaningful stealth mechanics is hard already, even to a team of experienced designers (which for one I am not). With limited time and resources of the jam environment it become even harder. With the sanity system gone, it become meaningless to spend time on to craft a detailed stealth system, so I left the simple stealth mechanics that I’ve already implemented. It is just a LoS reduction for the zombies, when player turns of the flashlight, zombie LoS is down to a quarter of its original value of 400 px. Which is almost pointless and makes gameplay dull; turn of the flashlight, walk through all the level from start to finish with no harm. What is also dull is the level design – third subject I will go through.
+
+Level design:
+Darkness Profound’s level design features big empty spaces. This empty spaces was meant to be used by player in order to avoid the zombie menace while stealthing.
 
 
 ---------------------------
 ---------------------------
 
-### Beyond Difficulty: Examining the Design of the Vice City's Demolition Man
+<section id="section2">
+    <h2>Beyond Difficulty: Examining the Design of the Vice City's Demolition Man</h2>
+</section>
 
 The infamous Demolition Man mission in Grand Theft Auto: Vice City has caused many players to quit the game due to its notorious difficulty. But is the challenge the only issue, or are there game design mistakes by the developers? Let’s find out. 
 
@@ -42,8 +62,10 @@ Thirdly, the most significant issue is that this mission is not mandatory to fin
 
 ---------------------------
 ---------------------------
-### An in Depth Look of The Troop's Accuracy Mechanics
 
+<section id="section3">
+    <h2>An in Depth Look of The Troop's Accuracy Mechanics</h2>
+</section>
 
 Many turn-based combat is like this: Player rushes forward units in order to eliminate the range penalty, and takes a shot at point blank range. (And misses with 95% percent accuracy :) – I am looking at you XCOM: https://youtu.be/zAThQV-vj08). This won’t be a problem depending the setting of the game, but how about the realistic titles of the World War II? Where in real life no stabilizers exist, tanks have to stop in order to take an accurate shot.  Turning its turret and aiming with WWII era optics, setting up the shot would reduce the accuracy. Wouldn’t be firing after moving hinders infantry, where he has to control his breathing in order to shoot accurately. Enter the solution of The Troop.
 
@@ -53,7 +75,11 @@ First mechanic is the steadiness mechanic. In developers’ words; “It represe
 
 ---------------------------
 ---------------------------
-### Lessons from Game Jams    
+
+
+<section id="section4">
+    <h2>Lessons from Game Jams  </h2>
+</section>  
 1. If a single polygon moves, playtesting should begin. This is an exaggeration, of course, but it underscores the importance of early playtesting. In my first jam, GDFG TEAM JAM #3, we couldn’t discover that our coyote timer was broken until our game, 'run.u.run,' was published. In both of my jams, I became so accustomed to the controls and mechanics that I failed to notice the floaty jumping in 'run.u.run.' Even worse, I wasn’t aware that I had not implemented diagonal movement in 'Darkness Profound' (my Scream Jam 2023 submission where I go solo) until the last minute! There was almost zero playtesting in both jams.    
 2. No one reads instructions, so a tutorial is a must. Write even the nicest, simplest, easiest-to-understand, and brief instructions; no one reads them (slight exaggeration). Some argue that tutorials are unnecessary, but I believe they must be implemented. They should be in-game, designed to be an organic part of the game, for example, a dedicated level with a story hook.    
 3. Jams are microcosms of the game development industry, such as:
