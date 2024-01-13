@@ -3,6 +3,11 @@ layout: page
 title: "Blog"
 permalink: /blog/
 ---
+<style>
+        p {
+            text-align: justify;
+        }
+</style>
 ### Contents
 
 
@@ -67,7 +72,7 @@ Thirdly, the most significant issue is that this mission is not mandatory to fin
     <h2>An in Depth Look of The Troop's Accuracy Mechanics</h2>
 </section>
 
-Many turn-based combat is like this: Player rushes forward units in order to eliminate the range penalty, and takes a shot at point blank range. (And misses with 95% percent accuracy :) – I am looking at you XCOM: https://youtu.be/zAThQV-vj08). This won’t be a problem depending the setting of the game, but how about the realistic titles of the World War II? Where in real life no stabilizers exist, tanks have to stop in order to take an accurate shot.  Turning its turret and aiming with WWII era optics, setting up the shot would reduce the accuracy. Wouldn’t be firing after moving hinders infantry, where he has to control his breathing in order to shoot accurately. Enter the solution of The Troop.
+Many turn-based combat is like this: Player rushes forward units in order to eliminate the range penalty, and takes a shot at point blank range. (And misses with 95% percent accuracy :) – I am looking at you XCOM: **[XCOM in a nutshell](https://youtu.be/zAThQV-vj08)**). This won’t be a problem depending the setting of the game, but how about the realistic titles of the World War II? Where in real life no stabilizers exist, tanks have to stop in order to take an accurate shot.  Turning its turret and aiming with WWII era optics, setting up the shot would reduce the accuracy. Wouldn’t be firing after moving hinders infantry, where he has to control his breathing in order to shoot accurately. Enter the solution of The Troop.
 
 First mechanic is the steadiness mechanic. In developers’ words; “It represents a unit's ability to take action competently at a given moment in the midst of battle.” Steadiness value effects “attack accuracy” and “final actions” of the units, but only accuracy will be addressed. Steadiness is reduced by unit movement, tank turret rotation and/or target acquisition and the suppression value of the unit. When a unit moves (rotation also counts as moving), depending the type of the unit, steadiness gets decreased by certain point; for vehicles 20% per tile and infantry 10%. This value is subtracted from a base accuracy value of 100%. 
 
