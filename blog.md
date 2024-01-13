@@ -10,7 +10,6 @@ permalink: /blog/
 </style>
 ### Contents
 
-
 <nav>
     <ul>
         <li><a href="#section1">Analyzing the Missteps: A Post-Mortem of Darkness Profound</a></li>
@@ -24,15 +23,16 @@ permalink: /blog/
     <h2>Analyzing the Missteps: A Post-Mortem of Darkness Profound</h2>
 </section>
 
-Participating in game jams is a thrilling yet challenging experience, demanding a unique blend of creativity, skill, and time management. The Scream Jam 2023, with 494 total submissions, marked a significant attempt for many game developers.  In this jam venture, I’ve submitted my game **[Darkness Profound](https://htramu.github.io/2023/10/28/darknesProfound/)**, which received numerous 3-point ratings out of 5 that Gauss would be proud if he’d saw this rating distribution graphic: 
-
+Participating in game jams is a thrilling yet challenging experience, demanding a unique blend of creativity, skill, and time management. The Scream Jam 2023, with 494 total submissions, marked a significant attempt for many game developers.  In this jam venture, I’ve submitted my game **[Darkness Profound](https://htramu.github.io/2023/10/28/darknesProfound/)**, which received numerous 3-point ratings out of 5 that Gauss would be proud if he’d saw this rating distribution graphic:
+  
 ![Picture 1](/assets/DP_gaussProud.png)
-
+  
 So, where did I go wrong? Why so many 3-point ratings instead of 5? In this post-mortem essay, I will delve into the reasons behind the mediocrity of my game, "Darkness Profound," focusing on critical aspects that contributed to its shortcomings.
 The first mistake, and the one to rule them all, was the scope of the game. The design in my mind was too ambitious, at least for a solo participant.
 Based on the enveloping darkness theme, I devised two design pillars: Health and Sanity. Player had to utilize these resources carefully in order to succeed. I visualized it with this graphic:
 
 ![Picture 2](/assets/DP_designPillars.png)
+
 
 Sanity decreases when the player turns the flashlight off and goes into stealth mode. Sanity would decrease permanently, with no way to replenish it. When it reaches zero, it results in a game over. The main design point here is to create tension between resources – should the player opt for stealth and risk losing sanity, or should they engage in combat, risking limited ammo and health?
 However, it became apparent that due to the limitations of Construct 3's free version and the constrained time available for game development, I could not implement the sanity system.  With the wrong scope chosen, game lost one of its main design pillars leading to incomplete gameplay.  This also made the stealth mechanics almost useless which will be the following subject. 
