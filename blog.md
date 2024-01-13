@@ -4,7 +4,7 @@ title: "Blog"
 permalink: /blog/
 ---
 
-### Beyond Difficulty: Examining the Design Flaws of the Vice City's Demolition Man
+### Beyond Difficulty: Examining the Design of the Vice City's Demolition Man
 
 The infamous Demolition Man mission in Grand Theft Auto: Vice City has caused many players to quit the game due to its notorious difficulty. But is the challenge the only issue, or are there game design mistakes by the developers? Let’s find out. 
 
@@ -21,6 +21,7 @@ Secondly, there is a concern about the timing of the mission's appearance. Depen
 Thirdly, the most significant issue is that this mission is not mandatory to finish the game; it is optional and required only for 100% completion. However, this information is not relayed to the player. There is no indication anywhere, in any form, like a different marker on the map compared to the usual Grand Theft Auto mission style or a message in the briefing. Even worse, after the Cop Land mission, no other markings will be left except the “A” letter of this mission (assuming the player undertook all initial story missions). To make the game progress further, the player should buy assets and complete their respective missions in order for the main story missions to reappear. This information is only mentioned once in the ending cutscene of the Shakedown mission as if it's an optional feature. Avery's phone call after the Shakedown mission hints at it slightly, but no other information or guidance is provided to the player. It is easy to assume that, without passing this mission, the story would not continue. Many people must have given up in frustration, thinking the they are stuck (there was no YouTube back in 2002, even Google was a toddler). This is a significant design mistake; the game should have clearly advertised the direction to the player.
 
 ---------------------------
+---------------------------
 ### An in Depth Look of The Troop's Accuracy Mechanics
 
 
@@ -30,6 +31,7 @@ First mechanic is the steadiness mechanic. In developers’ words; “It represe
 
 
 
+---------------------------
 ---------------------------
 ### Lessons from Game Jams    
 1. If a single polygon moves, playtesting should begin. This is an exaggeration, of course, but it underscores the importance of early playtesting. In my first jam, GDFG TEAM JAM #3, we couldn’t discover that our coyote timer was broken until our game, 'run.u.run,' was published. In both of my jams, I became so accustomed to the controls and mechanics that I failed to notice the floaty jumping in 'run.u.run.' Even worse, I wasn’t aware that I had not implemented diagonal movement in 'Darkness Profound' (my Scream Jam 2023 submission where I go solo) until the last minute! There was almost zero playtesting in both jams.    
