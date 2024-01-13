@@ -30,6 +30,7 @@ What I've designed and created in this game are:
 All art and sound assets, except for sprites like the map and inventory screen, logos, etc., are from external sources. 
 
 ### Jam Results
+
 ![Picture 1](/assets/DP_jamResults.png)
 
 ### Screenshots
