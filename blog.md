@@ -3,57 +3,27 @@ layout: page
 title: "Blog"
 permalink: /blog/
 ---
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif; /* Set your preferred font */
-        }
+<style>
 
-        .fixed-nav {
-            position: fixed;
-            width: 400px;
-            height: 100%;
-            background-color: #f0f0f0;
-            padding: 20px;
-            box-sizing: border-box;
-            overflow-y: auto;
+        p {
+            text-align: justify;
         }
+</style>
+### Contents
 
-        .fixed-nav ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-
-        .fixed-nav ul li {
-            margin-bottom: 10px;
-        }
-
-        .content {
-            margin-left: 420px;
-            padding: 20px;
-            box-sizing: border-box;
-        }
-
-        section {
-            padding-bottom: 20px; /* Add padding at the bottom of each section to separate them visually */
-        }
-    </style>
-
-<div class="fixed-nav">
+<nav>
     <ul>
-        <li><a href="#section1">Section 1</a></li>
-        <li><a href="#section2">Section 2</a></li>
-        <li><a href="#section3">Section 3</a></li>
-        <li><a href="#section4">Section 4</a></li>
+        <li><a href="#section1">Analyzing the Missteps: A Post-Mortem of Darkness Profound</a></li>
+        <li><a href="#section2">Beyond Difficulty: Examining the Design of the Vice City's Demolition Man</a></li>
+        <li><a href="#section3">An in Depth Look of The Troop's Accuracy Mechanics</a></li>
+		<li><a href="#section4">Lessons from Game Jams  </a></li>
     </ul>
-</div>
+</nav>
 
-<div class="content">
-    <section id="section1">
-        <h2>Analyzing the Missteps: A Post-Mortem of Darkness Profound</h2>
-        <!-- ... rest of the content ... -->
-    </section>
+<section id="section1">
+    <h2>Analyzing the Missteps: A Post-Mortem of Darkness Profound</h2>
+</section>
+
 Participating in game jams is a thrilling yet challenging experience, demanding a unique blend of creativity, skill, and time management. The Scream Jam 2023, with 494 total submissions, marked a significant attempt for many game developers.  In this jam venture, I’ve submitted my game **[Darkness Profound](https://htramu.github.io/2023/10/28/darknesProfound/)**, which received numerous 3-point ratings out of 5 that Gauss would be proud if he’d saw this rating distribution graphic:
   
 ![Picture 1](/assets/DP_gaussProud.png)
@@ -74,10 +44,14 @@ Another bite more than I can chew is the stealth system. Designing and implement
 Level design:
 Darkness Profound’s level design features big empty spaces. This empty spaces was meant to be used by player in order to avoid the zombie menace while stealthing.
 
-    <section id="section2">
-        <h2>Beyond Difficulty: Examining the Design of the Vice City's Demolition Man</h2>
 
-    </section>
+---------------------------
+---------------------------
+
+<section id="section2">
+    <h2>Beyond Difficulty: Examining the Design of the Vice City's Demolition Man</h2>
+</section>
+
 The infamous Demolition Man mission in Grand Theft Auto: Vice City has caused many players to quit the game due to its notorious difficulty. But is the challenge the only issue, or are there game design mistakes by the developers? Let’s find out. 
 
 ***(Warning! Grand Theft Auto: Vice City spoilers beyond this point.)***
@@ -92,25 +66,29 @@ Secondly, there is a concern about the timing of the mission's appearance. Depen
 
 Thirdly, the most significant issue is that this mission is not mandatory to finish the game; it is optional and required only for 100% completion. However, this information is not relayed to the player. There is no indication anywhere, in any form, like a different marker on the map compared to the usual Grand Theft Auto mission style or a message in the briefing. Even worse, after the Cop Land mission, no other markings will be left except the “A” letter of this mission (assuming the player undertook all initial story missions). To make the game progress further, the player should buy assets and complete their respective missions in order for the main story missions to reappear. This information is only mentioned once in the ending cutscene of the Shakedown mission as if it's an optional feature. Avery's phone call after the Shakedown mission hints at it slightly, but no other information or guidance is provided to the player. It is easy to assume that, without passing this mission, the story would not continue. Many people must have given up in frustration, thinking the they are stuck (there was no YouTube back in 2002, even Google was a toddler). This is a significant design mistake; the game should have clearly advertised the direction to the player.
 
-    <section id="section3">
-        <h2>An in Depth Look of The Troop's Accuracy Mechanics</h2>
+---------------------------
+---------------------------
 
-    </section>
+<section id="section3">
+    <h2>An in Depth Look of The Troop's Accuracy Mechanics</h2>
+</section>
+
 Many turn-based combat is like this: Player rushes forward units in order to eliminate the range penalty, and takes a shot at point blank range. (And misses with 95% percent accuracy :) – I am looking at you XCOM: **[XCOM in a nutshell](https://youtu.be/zAThQV-vj08)**). This won’t be a problem depending the setting of the game, but how about the realistic titles of the World War II? Where in real life no stabilizers exist, tanks have to stop in order to take an accurate shot.  Turning its turret and aiming with WWII era optics, setting up the shot would reduce the accuracy. Wouldn’t be firing after moving hinders infantry, where he has to control his breathing in order to shoot accurately. Enter the solution of The Troop.
 
 First mechanic is the steadiness mechanic. In developers’ words; “It represents a unit's ability to take action competently at a given moment in the midst of battle.” Steadiness value effects “attack accuracy” and “final actions” of the units, but only accuracy will be addressed. Steadiness is reduced by unit movement, tank turret rotation and/or target acquisition and the suppression value of the unit. When a unit moves (rotation also counts as moving), depending the type of the unit, steadiness gets decreased by certain point; for vehicles 20% per tile and infantry 10%. This value is subtracted from a base accuracy value of 100%. 
 
-    <section id="section4">
-        <h2>Lessons from Game Jams</h2>
-        <!-- ... rest of the content ... -->
-    </section>
-	1. If a single polygon moves, playtesting should begin. This is an exaggeration, of course, but it underscores the importance of early playtesting. In my first jam, GDFG TEAM JAM #3, we couldn’t discover that our coyote timer was broken until our game, 'run.u.run,' was published. In both of my jams, I became so accustomed to the controls and mechanics that I failed to notice the floaty jumping in 'run.u.run.' Even worse, I wasn’t aware that I had not implemented diagonal movement in 'Darkness Profound' (my Scream Jam 2023 submission where I go solo) until the last minute! There was almost zero playtesting in both jams.    
+
+
+---------------------------
+---------------------------
+
+
+<section id="section4">
+    <h2>Lessons from Game Jams  </h2>
+</section>  
+1. If a single polygon moves, playtesting should begin. This is an exaggeration, of course, but it underscores the importance of early playtesting. In my first jam, GDFG TEAM JAM #3, we couldn’t discover that our coyote timer was broken until our game, 'run.u.run,' was published. In both of my jams, I became so accustomed to the controls and mechanics that I failed to notice the floaty jumping in 'run.u.run.' Even worse, I wasn’t aware that I had not implemented diagonal movement in 'Darkness Profound' (my Scream Jam 2023 submission where I go solo) until the last minute! There was almost zero playtesting in both jams.    
 2. No one reads instructions, so a tutorial is a must. Write even the nicest, simplest, easiest-to-understand, and brief instructions; no one reads them (slight exaggeration). Some argue that tutorials are unnecessary, but I believe they must be implemented. They should be in-game, designed to be an organic part of the game, for example, a dedicated level with a story hook.    
 3. Jams are microcosms of the game development industry, such as:
     - Time constraints are a constant challenge in game jams, mirroring the broader game development process.
     - Success hinges on assembling the right team. In my first Jam, our team struggled to allocate enough time, resulting in failure. With my last-minute efforts, I barely published the game. Conversely, opting to go solo in my second jam, I realized it was a significant mistake given the game's scope—it truly required a team effort.
     - Advertising plays a pivotal role. In my second jam, I dedicated time to extensive promotion to ensure my game garnered a high number of ratings. But games that are better than mine, that did not pay attention to announce themselves, went unnoticed and got lower rating numbers.
-</div>
-
-
-
