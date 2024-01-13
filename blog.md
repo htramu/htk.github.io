@@ -39,8 +39,6 @@ permalink: /blog/
             padding-bottom: 20px; /* Add padding at the bottom of each section to separate them visually */
         }
     </style>
-</head>
-<body>
 
 <div class="fixed-nav">
     <ul>
