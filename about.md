@@ -26,7 +26,7 @@ permalink: /about/
             </p>
 			
 			<p>
-				On this portfolio site, you can find the game design work I've done so far, my professional resume,a blog about my game design ramblings and some other stuff too.
+				On this portfolio site, you can find the game design work I've done so far, my resume,a blog about my game design ramblings and some other stuff too.
 			</p>
         </td>
     </tr>
