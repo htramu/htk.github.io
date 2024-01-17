@@ -16,7 +16,8 @@ permalink: /blog/
         <li><a href="#section1">Analyzing the Missteps: A Post-Mortem of Darkness Profound</a></li>
         <li><a href="#section2">Beyond Difficulty: Examining the Design of the Vice City's Demolition Man</a></li>
         <li><a href="#section3">An in Depth Look of The Troop's Accuracy Mechanics</a></li>
-		<li><a href="#section4">Lessons from Game Jams  </a></li>
+		<li><a href="#section4">Player's Frustration, Designer's Insight</a></li>
+		<li><a href="#section5">Lessons from Game Jams  </a></li>
     </ul>
 </nav>
 
@@ -87,8 +88,29 @@ First mechanic is the steadiness mechanic. In developers’ words; “It represe
 ---------------------------
 ---------------------------
 
-
 <section id="section4">
+    <h2>Player's Frustration, Designer's Insight</h2>
+</section>  
+
+Achievements in video games are virtual rewards or milestones that players can unlock by completing specific tasks, challenges, or objectives within a game. These achievements serve various purposes and add an extra layer of engagement to the gaming experience. This is the textbook definition of 'achievements.'
+
+As a player, I usually did not see the need for them. They seemed like time wasters, implemented by 'evil' designers to prolong the game as much as possible. As a game designer, I understand their necessity for game development but cannot fathom them as an integral part of a game due to my perspective as a player. Until that fateful day... (eerie music looms).
+
+Warhammer 40,000: Battlesector spoilers below:	
+Warhammer 40,000: Battlesector is a fine game, both as a turn-based strategy and as a Warhammer 40K video game (as the franchise suffers from bad titles). As a habit, I play video games on the hardest difficulty, and Battlesector was no exception. The 15th mission, called 'The Battle for the Angel’s Fall,' features a bonus objective to save Sisters of Battle from the Tyranids. Each Sisters of Battle squad saved is rewarded with HQ Tokens after the mission ends. This objective is considered very challenging by players on the Steam discussions — even a dev commented that he could only manage to save 4 out of the 7 available on the hardest difficulty.
+
+At mission start, I set myself to save all the Sisters. It was brutal, full of blood, sweat, and tears. In the end, I managed to save them all. It provided immense satisfaction, the rewards were substantial, and... That’s it?? No achievement for completing the hardest secondary objective of the game on the hardest difficulty — which is even recognized by the devs? I was hoping to get one along with only 1% of the players. Now I realize why people are so keen on getting them.
+
+It would’ve given me the recognition — I would be one of the best players to accomplish the hardest of all secondary objectives.
+It would’ve given me my bragging rights — How it was so hard, how I created that tactic, made this movement.
+It would be the extra reward — The more rewards, the better. Players love them.
+
+My player side and game designer side have now made peace with each other. From a game design perspective, I accept that achievements are necessary; they should be included whenever and wherever they can be. They create recognition, accomplishment, more challenges, a mastery route for the skills gained during playtime, replayability, and so on and so forth.
+
+
+---------------------------
+---------------------------
+<section id="section5">
     <h2>Lessons from Game Jams  </h2>
 </section>  
 1. If a single polygon moves, playtesting should begin. This is an exaggeration, of course, but it underscores the importance of early playtesting. In my first jam, GDFG TEAM JAM #3, we couldn’t discover that our coyote timer was broken until our game, 'run.u.run,' was published. In both of my jams, I became so accustomed to the controls and mechanics that I failed to notice the floaty jumping in 'run.u.run.' Even worse, I wasn’t aware that I had not implemented diagonal movement in 'Darkness Profound' (my Scream Jam 2023 submission where I go solo) until the last minute! There was almost zero playtesting in both jams.    
