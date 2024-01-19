@@ -14,10 +14,10 @@ permalink: /blog/
 <nav>
     <ul>
         <li><a href="#section1">Analyzing the Missteps: A Post-Mortem of Darkness Profound</a></li>
-        <li><a href="#section2">Beyond Difficulty: Examining the Design of the Vice City's Demolition Man</a></li>
+        <li><a href="#section2">Beyond Difficulty: Examining the Vice City's Demolition Man</a></li>
         <li><a href="#section3">An in Depth Look of The Troop's Accuracy Mechanics</a></li>
 		<li><a href="#section4">Player's Frustration, Designer's Insight</a></li>
-		<li><a href="#section5">Lessons from Game Jams  </a></li>
+		<li><a href="#section5">Lessons from Game Jams</a></li>
     </ul>
 </nav>
 
@@ -46,7 +46,7 @@ Stealth system:
 Another bite more than I can chew is the stealth system. Designing and implementing meaningful stealth mechanics is hard already, even to a team of experienced designers (which for one I am not). With limited time and resources of the jam environment it become even harder. With the sanity system gone, it become meaningless to spend time on to craft a detailed stealth system, so I left the simple stealth mechanics that I’ve already implemented. It is just a LoS reduction for the zombies, when player turns of the flashlight, zombie LoS is down to a quarter of its original value of 400 px. This could’ve changed to a battery consuming flashlight system in order to make player turn off the flashlight occasionally and give them the dread of bumping onto an unsuspecting zombie. 
 
 Level design:
-Darkness Profound’s level design features big empty spaces. This empty spaces was meant to be used by player in order to avoid the zombie menace while stealthing. With stealth is half-implemented this spaces makes no sense. It also removes whole tension of combat system. I should’ve designed the level with more corridors and closed rooms, less space to maneuver and to avoid zombies, to  create a claustrophobic feeling. Large level design, along with the LoS reduction of the stealth system, makes gameplay dull; turn off the flashlight, walk through all the level from start to finish with no harm.
+Darkness Profound’s level design features big empty spaces. This empty spaces was meant to be used by player in order to avoid the zombie menace while stealthing. With stealth is half-implemented this spaces makes no sense. It also removes whole tension of combat system. I should’ve designed the level with more corridors and closed rooms, less space to maneuver and to avoid zombies, to  create a claustrophobic feeling. Large level design, along with the LoS reduction of the stealth system, makes gameplay dull; turn off the flashlight, walk through all the level from start to finish with almost no harm.
 
 
 
@@ -55,22 +55,22 @@ Darkness Profound’s level design features big empty spaces. This empty spaces 
 ---------------------------
 
 <section id="section2">
-    <h2>Beyond Difficulty: Examining the Design of the Vice City's Demolition Man</h2>
+    <h2>Beyond Difficulty: Examining the Vice City's Demolition Man</h2>
 </section>
 
-The infamous Demolition Man mission in Grand Theft Auto: Vice City has caused many players to quit the game due to its notorious difficulty. But is the challenge the only issue, or are there game design mistakes by the developers? Let’s find out. 
+The infamous Demolition Man mission in Grand Theft Auto: Vice City has caused many players to quit the game due to its notorious difficulty. But is the challenge the only issue, or are there game design mistakes by the developers? Let's find out. 
 
 ***(Warning! Grand Theft Auto: Vice City spoilers beyond this point.)***
 
-This mission is the second given by Avery Carrington. It requires the player to control a remote-controlled helicopter, delivering four demolition charges to specific locations within a construction site in 7 minutes. Alongside the time limit, hazards include melee weapon-wielding enemies and pistol users. The gameplay area is confined by walls, stairs, and safety nets, leaving little room for maneuvering. Objectives are placed vertically on a four-story construction site, forcing the player to make several back-and-forth journeys to the starting point to pick up bombs, as the helicopter can only carry one at a time. With multiple hazards, a time limit, and blockers, this mission is intentionally designed to be challenging. There is no game design mistake here; it is simply a very difficult mission.
+This mission is the second given by Avery Carrington. It requires the player to control a remote-controlled helicopter, delivering four demolition charges to specific locations within a construction site in 7 minutes. Alongside the time limit, hazards include melee weapon-wielding enemies and pistol wielding enemies. Enemies are appropriately positioned and their count is not unusual; most common route features one melee enemy on ground floor, two on the first floor, one pistol wielder and one melee on second floor and two pistol wielders on the third floor. There are scattered enemies on the floors but they often pose little threat except player decides to tread around the floors. The gameplay area is confined by walls, stairs, window glass, and safety nets, leaving little room for maneuvering. Objectives are placed vertically on a four-story construction site, forcing the player to make several back-and-forth journeys to the starting point to pick up bombs, as the helicopter can only carry one at a time. With multiple hazards, a time limit, and blockers, this mission is intentionally designed to be challenging. There is no apparent design mistake here; it is simply a very difficult mission.
 
-So, the design issues are not related to the mission itself. Let’s address them:
+So, there are no design issues related to the mission itself. But what is wrong with it then?
 
 Firstly, there is an issue related to PC players. It is evident that this mission is designed to be played with a gamepad, as the developers prioritized console versions and their control schemes. Without rumble pads and with the awkward keyboard control scheme of the PC version, this mission became even more challenging. Also, it should be remembered that, when Vice City was released in 2002, gamepads were not a common accesory in PC gaming.
 
-Secondly, there is a concern about the timing of the mission's appearance. Depending on your playstyle, this mission can be encountered very early in the game, around the 9th or 10th mission. With the skills required to handle this mission, it should have appeared later in the game, perhaps as the 40th mission or so (Vice City offers a total of 59 missions).
+Second one is the timing of the mission's appearance. Depending on your playstyle, this mission can be encountered very early in the game, around the 9th or 10th mission. With the skills required to handle this mission, it should have appeared later in the game, perhaps as the 40th mission or so (Vice City offers a total of 59 missions).
 
-Thirdly, the most significant issue is that this mission is not mandatory to finish the game; it is optional and required only for 100% completion. However, this information is not relayed to the player. There is no indication anywhere, in any form, like a different marker on the map compared to the usual Grand Theft Auto mission style or a message in the briefing. Even worse, after the Cop Land mission, no other markings will be left except the “A” letter of this mission (assuming the player undertook all initial story missions). To make the game progress further, the player should buy assets and complete their respective missions in order for the main story missions to reappear. This information is only mentioned once in the ending cutscene of the Shakedown mission as if it's an optional feature. Avery's phone call after the Shakedown mission hints at it slightly, but no other information or guidance is provided to the player. It is easy to assume that, without passing this mission, the story would not continue. Many people must have given up in frustration, thinking the they are stuck (there was no YouTube back in 2002, even Google was a toddler). This is a significant design mistake; the game should have clearly advertised the direction to the player.
+The third and the most significant problem is that this mission is not mandatory to finish the story; Demoliton Man is optional and required only for 100% completion. However, this information is not relayed to the player. There is no indication anywhere, in any form, like a different marker on the map compared to the usual Grand Theft Auto mission style or a message in the briefing. Even worse, after the Cop Land mission, no other markings will be left except the “A” letter of this mission (assuming the player undertook all initial story missions). To make the game progress further, the player should buy assets and complete their respective missions in order for the main story missions to reappear. This information is only mentioned once in the ending cutscene of the Shakedown mission as if it's an optional feature. Avery's phone call after the Shakedown mission hints at it slightly, but no other information or guidance is provided to the player. It is easy to assume that, without passing this mission, the story would not continue. Many people must have given up in frustration, thinking the they are stuck (there was no YouTube back in 2002, even Google was a toddler). This is a significant design mistake; the game should have clearly advertised the direction to the player.
 
 ---------------------------
 ---------------------------
@@ -79,7 +79,9 @@ Thirdly, the most significant issue is that this mission is not mandatory to fin
     <h2>An in Depth Look of The Troop's Accuracy Mechanics</h2>
 </section>
 
-Many turn-based combat is like this: Player rushes forward units in order to eliminate the range penalty, and takes a shot at point blank range. (And misses with 95% percent accuracy :) – I am looking at you XCOM: **[XCOM in a Nutshell](https://youtu.be/zAThQV-vj08)**). This won’t be a problem depending the setting of the game, but how about the realistic titles of the World War II? Where in real life no stabilizers exist, tanks have to stop in order to take an accurate shot.  Turning its turret and aiming with WWII era optics, setting up the shot would reduce the accuracy. Wouldn’t be firing after moving hinders infantry, where he has to control his breathing in order to shoot accurately. Enter the solution of The Troop.
+![Picture 3](/assets/troopPointBlank.png)
+
+Does the scenario on the image above felt familiar? In most of turn-based strategy games, player rushes forward units in order to eliminate the range penalty, and takes a shot at point blank range. (And misses with 95% percent accuracy :) – I am looking at you XCOM: **[XCOM in a Nutshell](https://youtu.be/zAThQV-vj08)**). This won’t be a problem depending the setting of the game, but for a realistic World War II title, there should be more 'distances' between opposing sides. The Troop, a turn-based, platoon-level tactical World War II title released in October 2023, addresses this effectively. Game features solid mechanics without the extreme complexity often found in similar games striving for realism.
 
 First mechanic is the steadiness mechanic. In developers’ words; “It represents a unit's ability to take action competently at a given moment in the midst of battle.” Steadiness value effects “attack accuracy” and “final actions” of the units, but only accuracy will be addressed. Steadiness is reduced by unit movement, tank turret rotation and/or target acquisition and the suppression value of the unit. When a unit moves (rotation also counts as moving), depending the type of the unit, steadiness gets decreased by certain point; for vehicles 20% per tile and infantry 10%. This value is subtracted from a base accuracy value of 100%. 
 
@@ -96,7 +98,8 @@ Achievements in video games are virtual rewards or milestones that players can u
 
 As a player, I usually did not see the need for them. They seemed like time wasters, implemented by 'evil' designers to prolong the game as much as possible. As a game designer, I understand their necessity for game development but cannot fathom them as an integral part of a game due to my perspective as a player. Until that fateful day... (eerie music looms).
 
-Warhammer 40,000: Battlesector spoilers below:	
+***(Warning! Warhammer 40,000: Battlesector spoilers beyond this point.)***
+
 Warhammer 40,000: Battlesector is a fine game, both as a turn-based strategy and as a Warhammer 40K video game (as the franchise suffers from bad titles). As a habit, I play video games on the hardest difficulty, and Battlesector was no exception. The 15th mission, called 'The Battle for the Angel’s Fall,' features a bonus objective to save Sisters of Battle from the Tyranids. Each Sisters of Battle squad saved is rewarded with HQ Tokens after the mission ends. This objective is considered very challenging by players on the Steam discussions — even a dev commented that he could only manage to save 4 out of the 7 available on the hardest difficulty.
 
 At mission start, I set myself to save all the Sisters. It was brutal, full of blood, sweat, and tears. In the end, I managed to save them all. It provided immense satisfaction, the rewards were substantial, and... That’s it?? No achievement for completing the hardest secondary objective of the game on the hardest difficulty — which is even recognized by the devs? I was hoping to get one along with only 1% of the players. Now I realize why people are so keen on getting them.
