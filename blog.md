@@ -13,22 +13,36 @@ permalink: /blog/
 
 <nav>
     <ul>
-        <li><a href="#section1">Analyzing the Missteps: A Post-Mortem of Darkness Profound</a></li>
-        <li><a href="#section2">Beyond Difficulty: Examining the Vice City's Demolition Man</a></li>
-        <li><a href="#section3">An in Depth Look of The Troop's Accuracy Mechanics</a></li>
-		<li><a href="#section4">Player's Frustration, Designer's Insight</a></li>
-		<li><a href="#section5">Lessons from Game Jams</a></li>
+		<li><a href="#section1">Rock, Paper, Scissors and… Flamethrower!?</a></li>
+        <li><a href="#section2">Analyzing the Missteps: A Post-Mortem of Darkness Profound</a></li>
+        <li><a href="#section3">Beyond Difficulty: Examining the GTA:Vice City's Demolition Man</a></li>
+        <li><a href="#section4">A Look to The Troop's Accuracy Mechanics</a></li>
+		<li><a href="#section5">Player's Frustration, Designer's Insight</a></li>
+		<li><a href="#section6">Lessons from Game Jams</a></li>
     </ul>
 </nav>
 
 <section id="section1">
+    <h2>Rock, Paper, Scissors and… Flamethrower!?</h2>
+</section>
+Rock, Paper, Scissors (abbreviated as RPS from now on) is a centuries-old game with good reasons: it's easy to learn, easy to play, and fun. RPS is perfectly balanced; no weapon has a particular advantage over the others. It is used for decision-making occasionally and serves as an example for balance adjustments in games. A flow channel graph and visualized balance diagram for RPS can be found below:
+
+![Picture 1](/assets/blog_RPS1.png)
+
+
+Now is the time to add the fourth weapon: The flamethrower! (What!? It is my favorite weapon of choice in any game. And my favorite chapter in the Warhammer 40K universe is Salamanders. And no, I am not a pyromaniac. And again, no, this is not a blowtorch right next to me. No, I don’t need any professional help either!!)
+
+In our first scenario, let’s assume that every weapon defeats two other weapons. Starting from the original win conditions with every weapon and working our way to the bottom, I have inserted new conditions into the table below:
+
+
+<section id="section2">
     <h2>Analyzing the Missteps: A Post-Mortem of Darkness Profound</h2>
 </section>
 
 Participating in game jams is a thrilling yet challenging experience, demanding a unique blend of creativity, skill, and time management. The Scream Jam 2023, with 494 total submissions, marked a significant attempt for many game developers.  In this jam venture, I’ve submitted my game **[Darkness Profound](https://htramu.github.io/2023/10/28/darknesProfound/){:target="_blank"}**, which received numerous 3-point ratings out of 5 that Gauss would be proud if he’d saw this rating distribution graphic:  
   
   
-![Picture 1](/assets/DP_gaussProud.png)
+![Picture 10](/assets/blog_DP_gaussProud.png)
   
   
 So, where did I go wrong? Why so many 3-point ratings instead of 5? In this post-mortem essay, I will delve into the reasons behind the mediocrity of my game, "Darkness Profound," focusing on critical aspects that contributed to its shortcomings.
@@ -36,7 +50,7 @@ So, where did I go wrong? Why so many 3-point ratings instead of 5? In this post
 The first shortcoming, and the one to rule them all, was the scope of the game. The design in my mind was too ambitious, at least for a solo participant.
 Based on the enveloping darkness theme, I devised two design pillars: Health and Sanity. Player had to utilize these resources carefully in order to succeed. I visualized it with this graphic:
 
-![Picture 2](/assets/DP_designPillars.png)
+![Picture 11](/assets/blog_DP_designPillars.png)
 
 
 Sanity decreases when the player turns the flashlight off and goes into stealth mode. Sanity would decrease permanently, with no way to replenish it. When it reaches zero, it results in a game over. The main design point here is to create tension between resources – should the player opt for stealth and risk losing sanity, or should they engage in combat, risking limited ammo and health?
@@ -54,8 +68,8 @@ Darkness Profound’s level design features big empty spaces. This empty spaces 
 ---------------------------
 ---------------------------
 
-<section id="section2">
-    <h2>Beyond Difficulty: Examining the Vice City's Demolition Man</h2>
+<section id="section3">
+    <h2>Beyond Difficulty: Examining the GTA:Vice City's Demolition Man</h2>
 </section>
 
 The infamous Demolition Man mission in Grand Theft Auto: Vice City has caused many players to quit the game due to its notorious difficulty. But is the challenge the only issue, or are there game design mistakes by the developers? Let's find out. 
@@ -75,13 +89,13 @@ The third and the most significant problem is that this mission is not mandatory
 ---------------------------
 ---------------------------
 
-<section id="section3">
-    <h2>A Look of The Troop's Accuracy Mechanics</h2>
+<section id="section4">
+    <h2>A Look to The Troop's Accuracy Mechanics</h2>
 </section>
 
-![Picture 3](/assets/troopPointBlank.png)
+![Picture 12](/assets/blog_troopPointBlank.png)
 
-Does the scenario in the image above feel familiar? In most of turn-based strategy games, players often rush forward their units to eliminate the range penalty, and takes a shot at point blank range. (And misses with 95% percent accuracy :) – I am looking at you XCOM: **[XCOM in a Nutshell](https://youtu.be/zAThQV-vj08)**). This won’t be a problem depending on the game's setting, but for a realistic World War II title, there should be more 'distances' between opposing sides. Moreover, movement of the infantry and any kind of vehicle should cause inaccuracy, as well as rotating a heavy weapon or turning the turret for the tanks. No stabilizers or fire-control systems exists on the WWII era tanks, they have to stop in order to shoot and readjust everything to get an accurate shot. After running or dashing, infantry have to catch their breath to shoot accurately. **[The Troop](https://store.steampowered.com/app/1363740/The_Troop/)**, a turn-based, platoon-level tactical World War II title, released in October 2023 and sadly becoming an underdog instantly, addresses these effectively. The game features solid mechanics without the extreme complexity often found in similar games striving for realism. 
+Does the scenario in the image above feel familiar? In most of turn-based strategy games, players often rush forward their units to eliminate the range penalty, and takes a shot at point blank range. (And misses with 95% percent accuracy :) – I am looking at you XCOM: **[XCOM in a Nutshell](https://youtu.be/zAThQV-vj08){:target="_blank"}**). This won’t be a problem depending on the game's setting, but for a realistic World War II title, there should be more 'distances' between opposing sides. Moreover, movement of the infantry and any kind of vehicle should cause inaccuracy, as well as rotating a heavy weapon or turning the turret for the tanks. No stabilizers or fire-control systems exists on the WWII era tanks, they have to stop in order to shoot and readjust everything to get an accurate shot. After running or dashing, infantry have to catch their breath to shoot accurately. **[The Troop](https://store.steampowered.com/app/1363740/The_Troop/){:target="_blank"}**, a turn-based, platoon-level tactical World War II title, released in October 2023 and sadly becoming an underdog instantly, addresses these effectively. The game features solid mechanics without the extreme complexity often found in similar games striving for realism. 
 
 The first mechanic is the steadiness mechanic. In developers’ words; “It represents a unit's ability to take action competently at a given moment in the midst of battle.” The steadiness value effects “attack accuracy” and “final actions” of the units. Steadiness is reduced by unit movement, tank turret rotation and/or target acquisition and the suppression value of the unit. If you lose enough steadiness, it is a "final action" and the unit finishes its turn. When a unit moves (rotation also counts as moving), depending on the type of the unit, steadiness gets decreased by a certain point; for vehicles, it's 20% per tile and for infantry, it's 10%. This value is subtracted from a base accuracy value of 100%. 
 
@@ -91,11 +105,11 @@ Let's imagine a scenario where a Panzer IV meets a Sherman Mark III. The Panzer 
 
 Sounds complex? Not at all. All mechanics for shooting are combined into a chance to hit score, which is shown as a percentage below the targeted unit, as seen in the screenshot below.
 
-![Picture 4](/assets/daTroopSShot.png)
+![Picture 13](/assets/blog_daTroopSShot.jpg)
 
 The same goes for the infantry except for the gunnery mechanic. The screenshot below shows an infantry unit moved 2 tiles away from its starting position which causing a loss in steadiness.
 
-![Picture 5](/assets/daTroopSShot2.png)
+![Picture 14](/assets/blog_daTroopSShot2.jpg)
 
 These two mechanics create a depth of tactical choices. How many tiles should I move before shooting? Should I move at all? If I keep my distance can I penetrate the armor or should I go for a flanking move? But one thing is for sure, instead of mindlessly rushing to melee range, players need to keep their distance, which suits to a realistic WWII title. With "steadiness" and "gunnery", along with other mechanics, the game creates a fun, realistic, but not overly complex turn-based gameplay experience.
 
@@ -103,7 +117,7 @@ These two mechanics create a depth of tactical choices. How many tiles should I 
 ---------------------------
 ---------------------------
 
-<section id="section4">
+<section id="section5">
     <h2>Player's Frustration, Designer's Insight</h2>
 </section>  
 
@@ -126,7 +140,7 @@ My player side and game designer side have now made peace with each other. From 
 
 ---------------------------
 ---------------------------
-<section id="section5">
+<section id="section6">
     <h2>Lessons from Game Jams  </h2>
 </section>  
 1. If a single polygon moves, playtesting should begin. This is an exaggeration, of course, but it underscores the importance of early playtesting. In my first jam, GDFG TEAM JAM #3, we couldn’t discover that our coyote timer was broken until our game, 'run.u.run,' was published. In both of my jams, I became so accustomed to the controls and mechanics that I failed to notice the floaty jumping in 'run.u.run.' Even worse, I wasn’t aware that I had not implemented diagonal movement in 'Darkness Profound' (my Scream Jam 2023 submission where I go solo) until the last minute! There was almost zero playtesting in both jams.    
