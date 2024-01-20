@@ -25,7 +25,7 @@ permalink: /blog/
     <h2>Analyzing the Missteps: A Post-Mortem of Darkness Profound</h2>
 </section>
 
-Participating in game jams is a thrilling yet challenging experience, demanding a unique blend of creativity, skill, and time management. The Scream Jam 2023, with 494 total submissions, marked a significant attempt for many game developers.  In this jam venture, I’ve submitted my game **[Darkness Profound](https://htramu.github.io/2023/10/28/darknesProfound/)**, which received numerous 3-point ratings out of 5 that Gauss would be proud if he’d saw this rating distribution graphic:  
+Participating in game jams is a thrilling yet challenging experience, demanding a unique blend of creativity, skill, and time management. The Scream Jam 2023, with 494 total submissions, marked a significant attempt for many game developers.  In this jam venture, I’ve submitted my game **[Darkness Profound](https://htramu.github.io/2023/10/28/darknesProfound/){:target="_blank"}**, which received numerous 3-point ratings out of 5 that Gauss would be proud if he’d saw this rating distribution graphic:  
   
   
 ![Picture 1](/assets/DP_gaussProud.png)
