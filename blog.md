@@ -76,15 +76,28 @@ The third and the most significant problem is that this mission is not mandatory
 ---------------------------
 
 <section id="section3">
-    <h2>An in Depth Look of The Troop's Accuracy Mechanics</h2>
+    <h2>A Look of The Troop's Accuracy Mechanics</h2>
 </section>
 
 ![Picture 3](/assets/troopPointBlank.png)
 
-Does the scenario on the image above felt familiar? In most of turn-based strategy games, player rushes forward units in order to eliminate the range penalty, and takes a shot at point blank range. (And misses with 95% percent accuracy :) – I am looking at you XCOM: **[XCOM in a Nutshell](https://youtu.be/zAThQV-vj08)**). This won’t be a problem depending the setting of the game, but for a realistic World War II title, there should be more 'distances' between opposing sides. The Troop, a turn-based, platoon-level tactical World War II title released in October 2023, addresses this effectively. Game features solid mechanics without the extreme complexity often found in similar games striving for realism.
+Does the scenario in the image above feel familiar? In most of turn-based strategy games, players often rush forward their units to eliminate the range penalty, and takes a shot at point blank range. (And misses with 95% percent accuracy :) – I am looking at you XCOM: **[XCOM in a Nutshell](https://youtu.be/zAThQV-vj08)**). This won’t be a problem depending on the game's setting, but for a realistic World War II title, there should be more 'distances' between opposing sides. Moreover, movement of the infantry and any kind of vehicle should cause inaccuracy, as well as rotating a heavy weapon or turning the turret for the tanks. No stabilizers or fire-control systems exists on the WWII era tanks, they have to stop in order to shoot and readjust everything to get an accurate shot. After running or dashing, infantry have to catch their breath to shoot accurately. **[The Troop](https://store.steampowered.com/app/1363740/The_Troop/)**, a turn-based, platoon-level tactical World War II title, released in October 2023 and sadly becoming an underdog instantly, addresses these effectively. The game features solid mechanics without the extreme complexity often found in similar games striving for realism. 
 
-First mechanic is the steadiness mechanic. In developers’ words; “It represents a unit's ability to take action competently at a given moment in the midst of battle.” Steadiness value effects “attack accuracy” and “final actions” of the units, but only accuracy will be addressed. Steadiness is reduced by unit movement, tank turret rotation and/or target acquisition and the suppression value of the unit. When a unit moves (rotation also counts as moving), depending the type of the unit, steadiness gets decreased by certain point; for vehicles 20% per tile and infantry 10%. This value is subtracted from a base accuracy value of 100%. 
+The first mechanic is the steadiness mechanic. In developers’ words; “It represents a unit's ability to take action competently at a given moment in the midst of battle.” The steadiness value effects “attack accuracy” and “final actions” of the units. Steadiness is reduced by unit movement, tank turret rotation and/or target acquisition and the suppression value of the unit. If you lose enough steadiness, it is a "final action" and the unit finishes its turn. When a unit moves (rotation also counts as moving), depending on the type of the unit, steadiness gets decreased by a certain point; for vehicles, it's 20% per tile and for infantry, it's 10%. This value is subtracted from a base accuracy value of 100%. 
 
+The second,specific to heavy weapons, is the gunnery mechanic. Gunnery represents the skill and the time to adjust the aiming of the heavy weapon, whether it is a QF 17-pounder anti-tank gun or a  7,5 cm KwK 42 (L/70) on the turret of a Panther. Whenever a heavy weapon turns to aim at a hex, it loses accuracy for each gunnery point spent, with the formula of (spent gunnery points - 1)*5%. Its total count is different among the units and it replenishes at the start of the player's turn.
+
+Let's imagine a scenario where a Panzer IV meets a Sherman Mark III. The Panzer IV moves a tile and aims its gun at the Sherman Mark III. With 1 tile movement, the panzer lost steadiness and now takes a -20% to its accuracy. Its turret was not angled in the same direction of its hull, so it has to spend 3 gunnery points to aim at the enemy tank, resulting in a further 10% ((3-1)*5%) reduction of accuracy.
+
+Sounds complex? Not at all. All mechanics for shooting are combined into a chance to hit score, which is shown as a percentage below the targeted unit, as seen in the screenshot below.
+
+![Picture 4](/assets/daTroopSShot.png)
+
+The same goes for the infantry except for the gunnery mechanic. The screenshot below shows an infantry unit moved 2 tiles away from its starting position which causing a loss in steadiness.
+
+![Picture 5](/assets/daTroopSShot2.png)
+
+These two mechanics create a depth of tactical choices. How many tiles should I move before shooting? Should I move at all? If I keep my distance can I penetrate the armor or should I go for a flanking move? But one thing is for sure, instead of mindlessly rushing to melee range, players need to keep their distance, which suits to a realistic WWII title. With "steadiness" and "gunnery", along with other mechanics, the game creates a fun, realistic, but not overly complex turn-based gameplay experience.
 
 
 ---------------------------
