@@ -19,9 +19,11 @@ permalink: /blog/
         <li><a href="#section4">Beyond Difficulty: Examining the GTA:Vice City's Demolition Man</a></li>
         <li><a href="#section5">A Look to The Troop's Accuracy Mechanics</a></li>
 		<li><a href="#section6">Player's Frustration, Designer's Insight</a></li>
-		<li><a href="#section7">Lessons from Game Jams</a></li>
+		<li><a href="#section7">Notes from Game Jams</a></li>
     </ul>
 </nav>
+
+---------------------------
 
 <section id="section1">
     <h2>Rock, Paper, Scissors and… Flamethrower!?</h2>
@@ -47,6 +49,8 @@ Now at least our poor(!) flamethrower can have a win. But this have consequences
 
 Time to move on to the third scenario: every weapon wins **only** one time. This makes it 1 win, 2 draws and 1 defeat for each weapon according to the table below:
 
+---------------------------
+---------------------------
 
 
 <section id="section2">
@@ -85,7 +89,8 @@ Darkness Profound’s level design features big empty spaces. This empty spaces 
 </section>
 
 World of Goo, a critically acclaimed indie puzzle game, is a showcase the power of simplicity and innovation in game design. Developed by 2D Boy, the game's straightforward concept of connecting balls of goo to reach the exit to finish a level, never gets boring thanks to the clever design choices of the developers: the elegant simplicity, the ever-evolving mechanics and player-centric features.
-Simple idea, simple execution; this is what the World of Goo does best. At its core, World of Goo is based around a very basic idea – connect balls of goo in order to get a requisite number of Goo Balls to reach the exit which is presented on each level as a pipe. This concept serves as the backbone of the game, providing players with an intuitive and easy-to-understand objective. Its brilliance lies in the simplicity of execution; players need only drag and drop goo units to build structures, like bridges and tower, that defy gravity and traverse challenging landscapes. Yet, the limited freedom to pull a goo to a maximum five goo units away, adds a layer of constraint, requiring players to think strategically and plan their moves carefully. This simplicity ensures that the game remains accessible to players of all skill levels and promotes creativity and experimentation.
+
+*Simple idea, simple execution*; this is what the World of Goo does best. At its core, World of Goo is based around a very basic idea – connect balls of goo in order to get a requisite number of Goo Balls to reach the exit which is presented on each level as a pipe. This concept serves as the backbone of the game, providing players with an intuitive and easy-to-understand objective. Its brilliance lies in the simplicity of execution; players need only drag and drop goo units to build structures, like bridges and tower, that defy gravity and traverse challenging landscapes. Yet, the limited freedom to pull a goo to a maximum five goo units away, adds a layer of constraint, requiring players to think strategically and plan their moves carefully. This simplicity ensures that the game remains accessible to players of all skill levels and promotes creativity and experimentation.
 
 World of Goo's level design is characterized by expansive maps that offer players enough space to construct their goo-based structures. Gravity, is the main hazard of the game, but also the one of the enablers for the players to overcome the challenges. The game consists several hazardous elements into the levels, ranging from spikes and fire to unpredictable environmental factors.  Levels, after the gravity, feature one or two extra hazards most, never straying far from the simplicity mindset and making things extremely complicated. Each level presents players with multiple solutions, encouraging diverse approaches and fostering a sense of accomplishment through individualized problem-solving. Furthermore, the game introduces hazardless levels, offering a reprieve from the usual challenges and allowing players to focus on building and exploration.
 
@@ -94,6 +99,7 @@ To enhance the player experience, World of Goo features a rewind function facili
 For the expert players seeking an additional challenge, World of Goo offers the Obsessive Completion Distinction (OCD) mode. This mode features optional goals, like completing a with minimal moves or collecting a huge number of goo, to push players to optimize their solutions and aim for perfection. The inclusion of OCD mode ensures that the game caters to a wide range of players, from casual enthusiasts to hardcore perfectionists.
 
 In order to keep the gameplay fresh, developers introduce new types of goo frequently throughout the levels. Each of these new types of goo comes with different mechanics, like a sling goo, which player can throw to a certain distance with a sling-like effect or the skull goo, a type of goo that is impervious to spikes.  Yet, the core objective of connecting goo to reach an exit remains constant, providing players with a sense of familiarity. The introduction of new mechanics ensures that the game stays fresh, engaging, and exciting for players over time.
+
 As addressed in the preceding sections of this game design breakdown we came to a conclusion: World of Goo serves as an inspiring example of how a game with a simple idea can evolve into a masterpiece through thoughtful design choices, ultimately leaving a mark on the landscape of indie gaming. 
 
 
@@ -173,7 +179,7 @@ My player side and game designer side have now made peace with each other. From 
 ---------------------------
 ---------------------------
 <section id="section7">
-    <h2>Lessons from Game Jams  </h2>
+    <h2>Notes from Game Jams  </h2>
 </section>  
 
 - If a single polygon moves, playtesting should begin. This is an exaggeration, of course, but it underscores the importance of early playtesting. In my first jam, GDFG TEAM JAM #3, we couldn’t discover that our coyote timer was broken until our game, 'run.u.run,' was published. In both of my jams, I became so accustomed to the controls and mechanics that I failed to notice the floaty jumping in 'run.u.run.' Even worse, I wasn’t aware that I had not implemented diagonal movement in 'Darkness Profound' (my Scream Jam 2023 submission where I go solo) until the last minute! There was almost zero playtesting in both jams.    
