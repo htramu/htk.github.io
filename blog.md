@@ -15,17 +15,18 @@ permalink: /blog/
     <ul>
 		<li><a href="#section1">Rock, Paper, Scissors and… Flamethrower!?</a></li>
         <li><a href="#section2">Analyzing the Missteps: A Post-Mortem of Darkness Profound</a></li>
-        <li><a href="#section3">Beyond Difficulty: Examining the GTA:Vice City's Demolition Man</a></li>
-        <li><a href="#section4">A Look to The Troop's Accuracy Mechanics</a></li>
-		<li><a href="#section5">Player's Frustration, Designer's Insight</a></li>
-		<li><a href="#section6">Lessons from Game Jams</a></li>
+		<li><a href="#section3">Game Design Breakdown of World of Goo</a></li>
+        <li><a href="#section4">Beyond Difficulty: Examining the GTA:Vice City's Demolition Man</a></li>
+        <li><a href="#section5">A Look to The Troop's Accuracy Mechanics</a></li>
+		<li><a href="#section6">Player's Frustration, Designer's Insight</a></li>
+		<li><a href="#section7">Lessons from Game Jams</a></li>
     </ul>
 </nav>
 
 <section id="section1">
     <h2>Rock, Paper, Scissors and… Flamethrower!?</h2>
 </section>
-Rock, Paper, Scissors (abbreviated as RPS from now on) is a centuries-old game with good reasons: it's easy to learn, easy to play, and fun. RPS is perfectly balanced; no weapon has a particular advantage over the others. It is used for decision-making occasionally and serves as an example for balance adjustments in games. A flow channel graph and visualized balance diagram for RPS can be found below:
+Rock, Paper, Scissors (abbreviated as RPS from now on) is a centuries-old game with good reasons: it's easy to learn, easy to play, and fun. RPS is perfectly balanced; no weapon has a particular advantage over the others. It is used for decision-making occasionally and used as an base for balance adjustments in video games (especialy in strategy games like Age of Empires, Starcraft etc.). A flow channel graph and visualized balance diagram for RPS can be found below:
 
 ![Picture 1](/assets/blog_RPS1.png)
 
@@ -33,6 +34,19 @@ Rock, Paper, Scissors (abbreviated as RPS from now on) is a centuries-old game w
 Now is the time to add the fourth weapon: The flamethrower! (What!? It is my favorite weapon of choice in any game. And my favorite chapter in the Warhammer 40K universe is Salamanders. And no, I am not a pyromaniac. And again, no, this is not a blowtorch right next to me. No, I don’t need any professional help either!!)
 
 In our first scenario, let’s assume that every weapon defeats two other weapons. Starting from the original win conditions with every weapon and working our way to the bottom, I have inserted new conditions into the table below:
+
+![Picture 2](/assets/blog_RPS2.png)
+
+According to the table,the 3 original weapons get 2 wins against the other weapons. Newly added weapon, the flamethrower gets "0" wins. This condition "breaks" the game. No one will select the flamethrower, because it is almost a guaranteed defeat - at best a draw. The game simply returned to its original form. 
+
+For the second scenario, we will assume that every weapon must win **one time** at least. Working our way to the bottom, I have created a table with new conditions, as can be seen below:
+
+![Picture 3](/assets/blog_RPS3.png)
+
+Now at least our poor(!) flamethrower can have a win. But this have consequences; scissors is down to 1 win, while rock and paper have 2 wins. Still broken and unbalanced, this is unplayable too.
+
+Time to move on to the third scenario: every weapon wins **only** one time. This makes it 1 win, 2 draws and 1 defeat for each weapon according to the table below:
+
 
 
 <section id="section2">
@@ -63,12 +77,30 @@ Level design:
 Darkness Profound’s level design features big empty spaces. This empty spaces was meant to be used by player in order to avoid the zombie menace while stealthing. With stealth is half-implemented this spaces makes no sense. It also removes whole tension of combat system. I should’ve designed the level with more corridors and closed rooms, less space to maneuver and to avoid zombies, to  create a claustrophobic feeling. Large level design, along with the LoS reduction of the stealth system, makes gameplay dull; turn off the flashlight, walk through all the level from start to finish with almost no harm.
 
 
-
-
 ---------------------------
 ---------------------------
 
 <section id="section3">
+    <h2>Game Design Breakdown of World of Goo</h2>
+</section>
+
+World of Goo, a critically acclaimed indie puzzle game, is a showcase the power of simplicity and innovation in game design. Developed by 2D Boy, the game's straightforward concept of connecting balls of goo to reach the exit to finish a level, never gets boring thanks to the clever design choices of the developers: the elegant simplicity, the ever-evolving mechanics and player-centric features.
+Simple idea, simple execution; this is what the World of Goo does best. At its core, World of Goo is based around a very basic idea – connect balls of goo in order to get a requisite number of Goo Balls to reach the exit which is presented on each level as a pipe. This concept serves as the backbone of the game, providing players with an intuitive and easy-to-understand objective. Its brilliance lies in the simplicity of execution; players need only drag and drop goo units to build structures, like bridges and tower, that defy gravity and traverse challenging landscapes. Yet, the limited freedom to pull a goo to a maximum five goo units away, adds a layer of constraint, requiring players to think strategically and plan their moves carefully. This simplicity ensures that the game remains accessible to players of all skill levels and promotes creativity and experimentation.
+
+World of Goo's level design is characterized by expansive maps that offer players enough space to construct their goo-based structures. Gravity, is the main hazard of the game, but also the one of the enablers for the players to overcome the challenges. The game consists several hazardous elements into the levels, ranging from spikes and fire to unpredictable environmental factors.  Levels, after the gravity, feature one or two extra hazards most, never straying far from the simplicity mindset and making things extremely complicated. Each level presents players with multiple solutions, encouraging diverse approaches and fostering a sense of accomplishment through individualized problem-solving. Furthermore, the game introduces hazardless levels, offering a reprieve from the usual challenges and allowing players to focus on building and exploration.
+
+To enhance the player experience, World of Goo features a rewind function facilitated by friendly fireflies. This mechanic allows players to revert to several moves back, providing a safety net for experimentation and mitigating the potential frustration of mistakes. The rewind function not only promotes a sense of agency but also encourages players to push the boundaries of their creativity without fear of irreversible consequences.
+
+For the expert players seeking an additional challenge, World of Goo offers the Obsessive Completion Distinction (OCD) mode. This mode features optional goals, like completing a with minimal moves or collecting a huge number of goo, to push players to optimize their solutions and aim for perfection. The inclusion of OCD mode ensures that the game caters to a wide range of players, from casual enthusiasts to hardcore perfectionists.
+
+In order to keep the gameplay fresh, developers introduce new types of goo frequently throughout the levels. Each of these new types of goo comes with different mechanics, like a sling goo, which player can throw to a certain distance with a sling-like effect or the skull goo, a type of goo that is impervious to spikes.  Yet, the core objective of connecting goo to reach an exit remains constant, providing players with a sense of familiarity. The introduction of new mechanics ensures that the game stays fresh, engaging, and exciting for players over time.
+As addressed in the preceding sections of this game design breakdown we came to a conclusion: World of Goo serves as an inspiring example of how a game with a simple idea can evolve into a masterpiece through thoughtful design choices, ultimately leaving a mark on the landscape of indie gaming. 
+
+
+---------------------------
+---------------------------
+
+<section id="section4">
     <h2>Beyond Difficulty: Examining the GTA:Vice City's Demolition Man</h2>
 </section>
 
@@ -89,7 +121,7 @@ The third and the most significant problem is that this mission is not mandatory
 ---------------------------
 ---------------------------
 
-<section id="section4">
+<section id="section5">
     <h2>A Look to The Troop's Accuracy Mechanics</h2>
 </section>
 
@@ -101,13 +133,13 @@ The first mechanic is the steadiness mechanic. In developers’ words; “It rep
 
 The second,specific to heavy weapons, is the gunnery mechanic. Gunnery represents the skill and the time to adjust the aiming of the heavy weapon, whether it is a QF 17-pounder anti-tank gun or a  7,5 cm KwK 42 (L/70) on the turret of a Panther. Whenever a heavy weapon turns to aim at a hex, it loses accuracy for each gunnery point spent, with the formula of (spent gunnery points - 1)*5%. Its total count is different among the units and it replenishes at the start of the player's turn.
 
-Let's imagine a scenario where a Panzer IV meets a Sherman Mark III. The Panzer IV moves a tile and aims its gun at the Sherman Mark III. With 1 tile movement, the panzer lost steadiness and now takes a -20% to its accuracy. Its turret was not angled in the same direction of its hull, so it has to spend 3 gunnery points to aim at the enemy tank, resulting in a further 10% ((3-1)*5%) reduction of accuracy.
+Let's imagine a scenario where a Panzer IV meets a Sherman Mark III. The Panzer IV moves a tile and aims its gun at the Sherman Mark III. With 1 tile movement, the panzer lost steadiness and now takes a -20% to its accuracy. Its turret was not angled in the same direction of its hull, so it has to spend 3 gunnery points to aim at the enemy tank, resulting in a further 10% _`((3-1)*5%)`_ reduction of accuracy.
 
 Sounds complex? Not at all. All mechanics for shooting are combined into a chance to hit score, which is shown as a percentage below the targeted unit, as seen in the screenshot below.
 
 ![Picture 13](/assets/blog_daTroopSShot.jpg)
 
-The same goes for the infantry except for the gunnery mechanic. The screenshot below shows an infantry unit moved 2 tiles away from its starting position which causing a loss in steadiness.
+The same goes for the infantry except for the gunnery mechanic. The screenshot below shows an infantry unit moved 2 tiles away from its starting position which causes a loss in steadiness.
 
 ![Picture 14](/assets/blog_daTroopSShot2.jpg)
 
@@ -117,7 +149,7 @@ These two mechanics create a depth of tactical choices. How many tiles should I 
 ---------------------------
 ---------------------------
 
-<section id="section5">
+<section id="section6">
     <h2>Player's Frustration, Designer's Insight</h2>
 </section>  
 
@@ -140,12 +172,12 @@ My player side and game designer side have now made peace with each other. From 
 
 ---------------------------
 ---------------------------
-<section id="section6">
+<section id="section7">
     <h2>Lessons from Game Jams  </h2>
 </section>  
-1. If a single polygon moves, playtesting should begin. This is an exaggeration, of course, but it underscores the importance of early playtesting. In my first jam, GDFG TEAM JAM #3, we couldn’t discover that our coyote timer was broken until our game, 'run.u.run,' was published. In both of my jams, I became so accustomed to the controls and mechanics that I failed to notice the floaty jumping in 'run.u.run.' Even worse, I wasn’t aware that I had not implemented diagonal movement in 'Darkness Profound' (my Scream Jam 2023 submission where I go solo) until the last minute! There was almost zero playtesting in both jams.    
-2. No one reads instructions, so a tutorial is a must. Write even the nicest, simplest, easiest-to-understand, and brief instructions; no one reads them (slight exaggeration). Some argue that tutorials are unnecessary, but I believe they must be implemented. They should be in-game, designed to be an organic part of the game, for example, a dedicated level with a story hook.    
-3. Jams are microcosms of the game development industry, such as:
-    - Time constraints are a constant challenge in game jams, mirroring the broader game development process.
-    - Success hinges on assembling the right team. In my first Jam, our team struggled to allocate enough time, resulting in failure. With my last-minute efforts, I barely published the game. Conversely, opting to go solo in my second jam, I realized it was a significant mistake given the game's scope—it truly required a team effort.
-    - Advertising plays a pivotal role. In my second jam, I dedicated time to extensive promotion to ensure my game garnered a high number of ratings. But games that are better than mine, that did not pay attention to announce themselves, went unnoticed and got lower rating numbers.
+
+- If a single polygon moves, playtesting should begin. This is an exaggeration, of course, but it underscores the importance of early playtesting. In my first jam, GDFG TEAM JAM #3, we couldn’t discover that our coyote timer was broken until our game, 'run.u.run,' was published. In both of my jams, I became so accustomed to the controls and mechanics that I failed to notice the floaty jumping in 'run.u.run.' Even worse, I wasn’t aware that I had not implemented diagonal movement in 'Darkness Profound' (my Scream Jam 2023 submission where I go solo) until the last minute! There was almost zero playtesting in both jams.    
+- No one reads instructions, so a tutorial is a must. Write even the nicest, simplest, easiest-to-understand, and brief instructions; no one reads them (slight exaggeration). Some argue that tutorials are unnecessary, but I believe they must be implemented. They should be in-game, designed to be an organic part of the game, for example, a dedicated level with a story hook.    
+- Time constraints are a constant challenge in game jams, mirroring the broader game development process.
+- Success hinges on assembling the right team. In my first Jam, our team struggled to allocate enough time, resulting in failure. With my last-minute efforts, I barely published the game. Conversely, opting to go solo in my second jam, I realized it was a significant mistake given the game's scope—it truly required a team effort.
+- Advertising plays a pivotal role. In my second jam, I dedicated time to extensive promotion to ensure my game garnered a high number of ratings. But games that are better than mine, that did not pay attention to announce themselves, went unnoticed and got lower rating numbers.
