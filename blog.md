@@ -8,7 +8,30 @@ permalink: /blog/
         p {
             text-align: justify;
         }
+		
+		 #goToTopBtn {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 15px;
+            cursor: pointer;
+        }
+
+        #goToTopBtn:hover {
+            background-color: #0056b3;
+        }
+
+        body:hover #goToTopBtn {
+            display: block;
+        }
+		
 </style>
+
 ### Contents
 
 <nav>
@@ -195,3 +218,5 @@ My player side and game designer side have now made peace with each other. From 
 - Time constraints are a constant challenge in game jams, mirroring the broader game development process.
 - Success hinges on assembling the right team. In my first Jam, our team struggled to allocate enough time, resulting in failure. With my last-minute efforts, I barely published the game. Conversely, opting to go solo in my second jam, I realized it was a significant mistake given the game's scope—it truly required a team effort.
 - Advertising plays a pivotal role. In my second jam, I dedicated time to extensive promotion to ensure my game garnered a high number of ratings. But games that are better than mine, that did not pay attention to announce themselves, went unnoticed and got lower rating numbers.
+
+<a href="#" id="goToTopBtn" title="Go to Top">Top</a>
