@@ -39,15 +39,19 @@ In our first scenario, let’s assume that every weapon defeats two other weapon
 
 ![Picture 2](/assets/blog_RPS2.png)
 
-According to the table,the 3 original weapons get 2 wins against the other weapons. Newly added weapon, the flamethrower gets "0" wins. This condition "breaks" the game. No one will select the flamethrower, because it is almost a guaranteed defeat - at best a draw. The game simply returned to its original form. 
+According to the table,the 3 original weapons get 2 wins against the other weapons. Newly added weapon, the flamethrower gets "0" wins. This condition "breaks" the game. No one will select the flamethrower, because it is almost a guaranteed defeat - at best a draw. The game simply returned to its original in a flawed form. 
 
-For the second scenario, we will assume that every weapon must win **one time** at least. Working our way to the bottom, I have created a table with new conditions, as can be seen below:
+For the second scenario, we will assume that every weapon must win **one time** at least. Working our way from top to the bottom, with original win conditions pritorized, I have created a table with new conditions, which can be seen below:
 
 ![Picture 3](/assets/blog_RPS3.png)
 
-Now at least our poor(!) flamethrower can have a win. But this have consequences; scissors is down to 1 win, while rock and paper have 2 wins. Still broken and unbalanced, this is unplayable too.
+Now at least our poor(!) flamethrower can have a win. But this have consequences; paper is down to 1 win, while rock and scissors have 2 wins. Any logical player would choose either rock or scissors, with the higher win rates, which puts rock a slightly adventegous position, as it beats scissors. This version is also broken and unbalanced, this is unplayable too.
 
 Time to move on to the third scenario: every weapon wins **only** one time. This makes it 1 win, 2 draws and 1 defeat for each weapon according to the table below:
+
+![Picture 3](/assets/blog_RPS4.png)
+
+
 
 ---------------------------
 ---------------------------
