@@ -28,7 +28,7 @@ permalink: /blog/
 <section id="section1">
     <h2>Rock, Paper, Scissors and… Flamethrower!?</h2>
 </section>
-Rock, Paper, Scissors (abbreviated as RPS from now on) is a centuries-old game with good reasons: it's easy to learn, easy to play, and fun. RPS is perfectly balanced; no weapon has a particular advantage over the others. It is used for decision-making occasionally and used as an base for balance adjustments in video games (especialy in strategy games like Age of Empires, Starcraft etc.). A flow channel graph and visualized balance diagram for RPS can be found below:
+Rock, Paper, Scissors (abbreviated as RPS from now on) is a centuries-old game with good reasons: it's easy to learn, easy to play, and fun. RPS is perfectly balanced; no weapon has a particular advantage over the others. It is used for decision-making occasionally and serves as a base for balance adjustments in video games (especialy in strategy games like Age of Empires, Starcraft etc.). A flow channel graph and visualized balance diagram for RPS can be found below:
 
 ![Picture 1](/assets/blog_RPS1.png)
 
@@ -39,17 +39,21 @@ In our first scenario, let’s assume that every weapon defeats two other weapon
 
 ![Picture 2](/assets/blog_RPS2.png)
 
-According to the table,the 3 original weapons get 2 wins against the other weapons. Newly added weapon, the flamethrower gets "0" wins. This condition "breaks" the game. No one will select the flamethrower, because it is almost a guaranteed defeat - at best a draw. The game simply returned to its original in a flawed form. 
+According to the table,the three original weapons get 2 wins against the other weapons. Newly added weapon, the flamethrower gets "0" wins. This condition "breaks" the game. No one will select the flamethrower, because it is almost a guaranteed defeat - at best a draw. The game simply returned to its original in a flawed form. 
 
 For the second scenario, we will assume that every weapon must win **one time** at least. Working our way from top to the bottom, with original win conditions pritorized, I have created a table with new conditions, which can be seen below:
 
 ![Picture 3](/assets/blog_RPS3.png)
 
-Now at least our poor(!) flamethrower can have a win. But this have consequences; paper is down to 1 win, while rock and scissors have 2 wins. Any logical player would choose either rock or scissors, with the higher win rates, which puts rock a slightly adventegous position, as it beats scissors. This version is also broken and unbalanced, this is unplayable too.
+Now at least our poor(!) flamethrower can have a win. But this have consequences; paper is down to 1 win, while rock and scissors have 2 wins. Any logical player would choose either rock or scissors, with the higher win rates, which puts rock a slightly advantageous position, as it beats the scissors. This version is also broken and unbalanced, this is unplayable too.
 
-Time to move on to the third scenario: every weapon wins **only** one time. This makes it 1 win, 2 draws and 1 defeat for each weapon according to the table below:
+Time to move on to the third scenario: Every weapon wins **only** one time. This makes it 1 win, 2 draws and 1 defeat for each weapon according to the table below:
 
-![Picture 3](/assets/blog_RPS4.png)
+![Picture 4](/assets/blog_RPS4.png)
+
+With this new rule, every weapon has equal chance to win and lose, but with an inconvenience: the draws doubled in number! Game is balanced and playable in this state but becomes less fun as most of the time it will end in a draw with a whooping 50% chance! 
+
+![Picture 5](/assets/blog_RPS5.png)
 
 
 
