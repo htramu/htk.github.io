@@ -78,6 +78,11 @@ With this new rule, every weapon has equal chance to win and lose, but with an i
 
 ![Picture 5](/assets/blog_RPS5.png)
 
+A five-weapon version has already been explored; in the eighth episode of the second season of Big Bang Theory, Raj and Sheldon attempted to resolve their dispute using the [Rock, Paper, Scissors, Lizard, Spock](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock){:target="_blank"}. Despite being somewhat more balanced and enjoyable with a reduced number of ties, this version tends to overcomplicate matters, placing it in the upper section of the flow chart diagram:
+
+![Picture 6](/assets/blog_RPS6.png)
+
+Adding the fourth and trying to make it the game balanced, resulted in too many "draws" and made it less fun. Five weapons version, it got more confusing and complex. In the end, the classic game stays the winner because sometimes, simplicity is just more fun! Don't convinced? You can always check the [101-gesture version of Rock-Paper-Scissors](https://www.umop.com/rps101.htm){:target="_blank"}!
 
 
 ---------------------------
@@ -219,4 +224,4 @@ My player side and game designer side have now made peace with each other. From 
 - Success hinges on assembling the right team. In my first Jam, our team struggled to allocate enough time, resulting in failure. With my last-minute efforts, I barely published the game. Conversely, opting to go solo in my second jam, I realized it was a significant mistake given the game's scope—it truly required a team effort.
 - Advertising plays a pivotal role. In my second jam, I dedicated time to extensive promotion to ensure my game garnered a high number of ratings. But games that are better than mine, that did not pay attention to announce themselves, went unnoticed and got lower rating numbers.
 
-<a href="#" id="goToTopBtn" title="Go to Top">Top</a>
+<a href="#" id="goToTopBtn" title="Go to Top">Go to Top</a>
