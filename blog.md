@@ -51,24 +51,24 @@ permalink: /blog/
 <section id="section1">
     <h2>Rock, Paper, Scissors and… Flamethrower!?</h2>
 </section>
-Rock, Paper, Scissors (abbreviated as RPS from now on) is a centuries-old game with good reasons: it's easy to learn, easy to play, and fun. RPS is perfectly balanced; no weapon has a particular advantage over the others. It is used for decision-making occasionally and serves as a base for balance adjustments in video games (especialy in strategy games like Age of Empires, Starcraft etc.). A flow channel graph and visualized balance diagram for RPS can be found below:
+Rock, Paper, Scissors (hereafter “RPS”) is a centuries-old game with good reason: it's easy to learn, easy to play, and fun. RPS is perfectly balanced; no weapon has a particular advantage over the others. It is used for decision-making occasionally and serves as a base for gameplay balance adjustments in video games (especialy in strategy games like Age of Empires, Starcraft etc.). A flow channel graph and visualized balance diagram for RPS can be found below:
 
 ![Picture 1](/assets/blog_RPS1.png)
 
 
-Now is the time to add the fourth weapon: The flamethrower! (What!? It is my favorite weapon of choice in any game. And my favorite chapter in the Warhammer 40K universe is Salamanders. And no, I am not a pyromaniac. And again, no, this is not a blowtorch right next to me. No, I don’t need any professional help either!!)
+Now is the time to add the fourth weapon: The flamethrower! (What!? It is my favorite weapon of choice in any game. And my favorite chapter in the Warhammer 40K universe is Salamanders and they love flamethrowers. And no, I am not a pyromaniac. And again, no, this is not a blowtorch right next to me. No, I don’t need any professional help either!!)
 
-In our first scenario, let’s assume that every weapon defeats two other weapons. Starting from the original win conditions with every weapon and working our way to the bottom, I have inserted new conditions into the table below:
+Let's consider a few scenarios that involve this fresh take on RPS. In our first scenario, let’s assume that every weapon defeats two other weapons. I have inserted new "win" conditions into the table below, starting with the original win conditions of every weapon and working our way top of the table and to the bottom it:
 
 ![Picture 2](/assets/blog_RPS2.png)
 
-According to the table,the three original weapons get 2 wins against the other weapons. Newly added weapon, the flamethrower gets "0" wins. This condition "breaks" the game. No one will select the flamethrower, because it is almost a guaranteed defeat - at best a draw. The game simply returned to its original in a flawed form. 
+According to the table above,the three original weapons get 2 wins against the other weapons. Newly added weapon, the flamethrower gets "0" wins. This condition "breaks" the game. No one will select the flamethrower, because it is almost a guaranteed defeat - at best a draw. The game simply returned to its original in a flawed form. 
 
 For the second scenario, we will assume that every weapon must win **one time** at least. Working our way from top to the bottom, with original win conditions pritorized, I have created a table with new conditions, which can be seen below:
 
 ![Picture 3](/assets/blog_RPS3.png)
 
-Now at least our poor(!) flamethrower can have a win. But this have consequences; paper is down to 1 win, while rock and scissors have 2 wins. Any logical player would choose either rock or scissors, with the higher win rates, which puts rock a slightly advantageous position, as it beats the scissors. This version is also broken and unbalanced, this is unplayable too.
+Now at least our poor(!) flamethrower can have a win. But this have consequences; paper is down to 1 win, while rock and scissors have 2 wins. Any logical player would choose either rock or scissors, with the higher win rates, which puts rock a slightly advantageous position, as it beats the scissors. This version is also broken and unbalanced, this is somewhat unplayable too.
 
 Time to move on to the third scenario: Every weapon wins **only** one time. This makes it 1 win, 2 draws and 1 defeat for each weapon according to the table below:
 
@@ -78,11 +78,11 @@ With this new rule, every weapon has equal chance to win and lose, but with an i
 
 ![Picture 5](/assets/blog_RPS5.png)
 
-A five-weapon version has already been explored; in the eighth episode of the second season of Big Bang Theory, Raj and Sheldon attempted to resolve their dispute using the [Rock, Paper, Scissors, Lizard, Spock](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock){:target="_blank"}. Despite being somewhat more balanced and enjoyable with a reduced number of ties, this version tends to overcomplicate matters, placing it in the upper section of the flow chart diagram:
+Before the conclusion, adressing a five-weapon version is in order, which has already been explored in the eighth episode of the second season of Big Bang Theory, where Raj and Sheldon attempted to resolve their dispute using the [Rock, Paper, Scissors, Lizard, Spock](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock){:target="_blank"}. Despite being somewhat more balanced and enjoyable with a reduced number of ties, this version tends to overcomplicate matters, placing it in the upper section of the flow chart diagram:
 
 ![Picture 6](/assets/blog_RPS6.png)
 
-Adding the fourth and trying to make it the game balanced, resulted in too many "draws" and made it less fun. Five weapons version, it got more confusing and complex. In the end, the classic game stays the winner because sometimes, simplicity is just more fun! Don't convinced? You can always check the [101-gesture version of Rock-Paper-Scissors](https://www.umop.com/rps101.htm){:target="_blank"}!
+Adding the fourth and trying to make it the game balanced, resulted in too many "draws" and made it less fun. Five weapons version, it got more confusing and complex. In the end, the classic game stays the winner because sometimes, simplicity is just more fun! Not convinced? You can always try the [101-gesture version of Rock-Paper-Scissors](https://www.umop.com/rps101.htm){:target="_blank"}!
 
 
 ---------------------------
