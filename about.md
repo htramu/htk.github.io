@@ -11,7 +11,7 @@ permalink: /about/
 	
 <table border="0" cellspacing="0" cellpadding="0">
     <tr>
-        <td width="400">
+        <td width="350">
             <img src="/assets/aboutme.jpg" alt="About Me Image">
         </td>
         <td>
