@@ -109,15 +109,18 @@ I chose an enveloping darkness as the main theme for the game. The player would 
 
 Sanity would decrease when the player turns the flashlight off and goes into stealth mode. Sanity would decrease permanently, with no way to replenish it. When it reaches zero, it results in a game over. The core design intent was to create trade-off between limited resources for a layer of complexity and challenge – should the player opt for stealth and risk losing sanity, or should they engage in combat, risking limited ammo and health?
 However, it became apparent that due to the limitations of Construct 3's free version and the constrained time available for development, I couldn't implement the sanity system in full. Without the implementation of a design pillar, the gameplay suffered from a lack of depth and challenge. 
-``` Afterthought: This could have been salvaged. For example, after turning the flashlight off, an unnatural being could have attacked player after a certain time in passed in darkness. With a chilling sound effect and visual cues this could be the tension creator I was looking for. ```
+
+*Afterthought: This could have been salvaged. For example, after turning the flashlight off, an unnatural being could have attacked player after a certain time in passed in darkness. With a chilling sound effect and visual cues this could be the tension creator I was looking for.*
 
 ### Stealth System
 Designing and implementing meaningful stealth mechanics is hard already, even to a team of experienced designers (which for one I am not). With limited time and resources of the jam environment it became even harder. Scrapping the sanity system made implementing a detailed stealth mechanic pointless, so I stuck with the basic mechanics I already had. Players found it to be redundant, which detracted from the overall experience because it is just a LoS reduction for the zombies. When the player turns off the flashlight, zombie LoS is down to a quarter of its original value of 400 px. 
-``` Afterthought: I could’ve changed to a battery consuming flashlight system in order to make the player turn off the flashlight occasionally and give them the dread of bumping onto an unsuspecting zombie. ```
+
+*Afterthought: I could’ve changed to a battery consuming flashlight system in order to make the player turn off the flashlight occasionally and give them the dread of bumping onto an unsuspecting zombie.*
 
 ### Level Design
 Darkness Profound's level design features large, empty spaces intended for players to use stealth and evade the zombie menace. Unfortunately, with the stealth system only partially implemented, these spaces lose their purpose and remove the intended tension from the combat system, as a player can walk through the whole level from start to finish with almost no harm after turning off the flashlight. Additionally, the large level design required the implementation of a map system, which complicated the development, used up already limited time and resources that could have been spent on fine tuning mechanics and gameplay.
-``` Afterthought: A more claustrophobic level design, based on corridors and rooms, with less space to maneuver and avoid zombies,, could have heightened the sense of dread. ```
+
+*Afterthought: A more claustrophobic level design, based on corridors and rooms, with less space to maneuver and avoid zombies,, could have heightened the sense of dread.*
 
 ### "Game Feel" Issues
 - The game is not dark enough. The darkness effect is created with a black sprite placed on top of other sprites. This sprite covers the viewport, uses a blend mode of “source out” and has an alpha value of 222 in the RGB scale for opacity. This value could have been higher, like 235, to further enhance the darker tone.
