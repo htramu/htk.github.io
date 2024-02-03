@@ -9,7 +9,7 @@ permalink: /about/
         }
 </style>
 	
-<table border="0"cellspacing="0" cellpadding="0">
+<table border="0" cellspacing="0" cellpadding="0">
     <tr>
         <td width="400">
             <img src="/assets/aboutme.jpg" alt="About Me Image">
