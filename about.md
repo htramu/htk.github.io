@@ -16,17 +16,17 @@ permalink: /about/
         </td>
         <td>
 			<p>
-				Hey!
+				Hello!
 			</p>
             <p>
-                I am Halil, a hobbyist game designer aiming for a professional game design job. 
-                I love working as a systems designer and gameplay mechanics designer, 
-                but as an indie gamedev, I am exposed to level design, coding, writing, 
-                UI design, sound and music design and art.
+                
+My name is Halil, and I am a passionate game designer with a focus on systems and gameplay mechanics, eager to transition from hobbyist to a professional game design role. Although my primary interest lies in these areas, my experience as an indie game dev has also exposed me to various disciplines like level design, coding, writing, UI/UX, and even sound and music design.
+
+
             </p>
 			
 			<p>
-				On this portfolio site, you can find the game design work I've done so far, my resume,a blog about my game design ravings and some other stuff too.
+				This portfolio site showcases my game design work, encompassing both personal projects and collaborations. You'll find detailed descriptions, visual assets, and playable prototypes. Additionally, I've included my resume highlighting my skills, education and job experiences, a blog where I share my thoughts and insights on game design, and some other stuff. 
 			</p>
         </td>
     </tr>
