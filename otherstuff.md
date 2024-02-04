@@ -30,7 +30,7 @@ Meteor Awareness is my first ever attempt to create a game. It is a simple paper
  
  This is the Brickheadz version of the [Adrax Agatone](https://wh40k.lexicanum.com/wiki/Adrax_Agatone){:target="_blank"} Captain of the Salamanders Chapter's Third Company from the Warhammer 40K universe.
  
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/GcityZ4"  ><a href="//imgur.com/a/GcityZ4">Adrax Legotone</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/GcityZ4" data-context="false" ><a href="//imgur.com/a/GcityZ4">Adrax Legotone</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 
 
