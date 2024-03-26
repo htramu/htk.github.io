@@ -55,9 +55,9 @@ The tasks I undertook can be can be grouped as follows:
   <li>
     Designed Animal Mechanics
     <ul>
-      <li>Number of animal types and animal variables</li>
-      <li>Animal mechanic called "animal behavior" to add variety</li>
-      <li>Animal positioning and patrol behavior</li>
+      <li>Designed number of the animal types and animal variables</li>
+      <li>Designed a mechanic called "behavior groups" to add variety</li>
+      <li>Designed Animal positioning and patrol behavior</li>
     </ul>
   </li>
   <li>
