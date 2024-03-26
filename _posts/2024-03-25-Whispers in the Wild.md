@@ -28,38 +28,46 @@ The tasks I undertook can be can be grouped as follows:
   <tr>
     <td>
 		 <p>Game Design</p>
-<h2>Designed Core Gameplay Loop</h2>
 <ul>
-  <li>Designed a game "day" where actual gameplay occurs</li>
-  <li>Designed the playthrough of 5 "days"</li>
-  <li>Designed a simple score system on game over</li>
-</ul>
-
-<h2>Designed Player Mechanics</h2>
-<ul>
-  <li>Movement (WASD-Mouse)</li>
-  <li>Camera positioning</li>
-  <li>Dash mechanic</li>
-  <li>Stealth mechanic</li>
-</ul>
-
-<h2>Designed World Map Mechanics</h2>
-<ul>
-  <li>Designed audio clue mechanic</li>
-</ul>
-
-<h2>Designed Animal Mechanics</h2>
-<ul>
-  <li>Number of animal types and animal variables</li>
-  <li>Animal mechanic called "animal behavior" to add variety</li>
-  <li>Animal positioning and patrol behavior</li>
-</ul>
-
-<h2>Designed Gameplay Mechanics</h2>
-<ul>
-  <li>Designed animal "hunting" mechanic</li>
-  <li>Designed photography mode mechanics</li>
-  <li>Designed mini-games and mini game UIs</li>
+  <li>
+    Designed Core Gameplay Loop
+    <ul>
+      <li>Designed a game "day" where actual gameplay occurs</li>
+      <li>Designed the playthrough of 5 "days"</li>
+      <li>Designed a simple score system on game over</li>
+    </ul>
+  </li>
+  <li>
+    Designed Player Mechanics
+    <ul>
+      <li>Movement (WASD-Mouse)</li>
+      <li>Camera positioning</li>
+      <li>Dash mechanic</li>
+      <li>Stealth mechanic</li>
+    </ul>
+  </li>
+  <li>
+    Designed World Map Mechanics
+    <ul>
+      <li>Designed audio clue mechanic</li>
+    </ul>
+  </li>
+  <li>
+    Designed Animal Mechanics
+    <ul>
+      <li>Number of animal types and animal variables</li>
+      <li>Animal mechanic called "animal behavior" to add variety</li>
+      <li>Animal positioning and patrol behavior</li>
+    </ul>
+  </li>
+  <li>
+    Designed Gameplay Mechanics
+    <ul>
+      <li>Designed animal "hunting" mechanic</li>
+      <li>Designed photography mode mechanics</li>
+      <li>Designed mini-games and mini game UIs</li>
+    </ul>
+  </li>
 </ul>
 
 	</td>
