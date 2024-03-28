@@ -6,10 +6,10 @@ date:   2024-03-21 00:00:00
 preview: /assets/wiw.png
 ---
 
-![Picture 1](/assets/wiw_1.png)
-![Picture 2](/assets/wiw_2.png)
-![Picture 3](/assets/wiw_3.png)
-![Picture 4](/assets/wiw_4.png)
+![Picture 1](/assets/wiw_1.jpg)
+![Picture 2](/assets/wiw_2.jpg)
+![Picture 3](/assets/wiw_3.jpg)
+![Picture 4](/assets/wiw_4.jpg)
 
 This is a submission for [Easter Jam 2024](https://itch.io/jam/easter-jam-2024), developed using the Unity engine. The overall theme for the game jam was "hunting" and the jam ran for a week. The game aimed to be a 3rd person 3D auditory hunting game, where the player follows audio cues of animals and catches them with a rhythm mini-game.
 
@@ -21,7 +21,7 @@ The tasks I undertook can be can be grouped as follows:
 
 <table>
   <tr class="border-bottom">
-    <td>
+    <td  style="text-align:justify">
 		
 		 Game Design
 			<ul>
