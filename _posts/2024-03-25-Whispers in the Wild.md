@@ -94,7 +94,7 @@ The tasks I undertook can be can be grouped as follows:
   </tr>
 </table>
 
-[Mechanics Design Document](assets/Wiw_Mechanics.pdf)
+[Mechanics Design Document](assets/wiw_Mechanics.pdf)
 
 
 ### Game Page on itch.io
