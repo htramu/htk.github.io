@@ -21,9 +21,9 @@ The tasks I undertook can be can be grouped as follows:
 
 <table>
   <tr class="border-bottom">
-    <td  style="text-align:justify">
+    <td  style="text-align:center">
 		
-		 Game Design
+		 <h1> Game Design </h1>
 			<ul>
 			  <li>
 				Designed Core Gameplay Loop
