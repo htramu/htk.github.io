@@ -5,11 +5,6 @@ summary: "Game Designer /Director"
 date:   2024-03-21 00:00:00
 preview: /assets/wiw.png
 ---
-<style>
-        p {
-            text-align: justify;
-        }
-</style>
 
 ![Picture 1](/assets/wiw_1.png)
 ![Picture 2](/assets/wiw_2.png)
@@ -25,9 +20,9 @@ My primary responsibility was Game Design along with the role of the Director.
 The tasks I undertook can be can be grouped as follows:
 
 <table>
-  <tr>
+  <tr class="border-bottom">
     <td>
-		 <p>
+		
 		 Game Design
 			<ul>
 			  <li>
@@ -70,7 +65,7 @@ The tasks I undertook can be can be grouped as follows:
 				</ul>
 			  </li>
 			</ul>
-		</p>
+		
 	</td>
 	
     <td>
