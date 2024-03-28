@@ -21,11 +21,11 @@ The tasks I undertook can be can be grouped as follows:
 
 <table style="border-collapse: collapse;">
 	<tr>
-	 <th>Game Designer</th>
-	 <th>Director</th>
+	 <th style="vertical-align:top;">Game Designer</th>
+	 <th style="vertical-align:top;">Director</th>
 	</tr>
 	<tr>
-		<td style="vertical-align:top;border-right-style: ridge;">
+		<td style="vertical-align:top; border-right-style: ridge;">
 				<ul>
 				  <li>
 					Designed the Core Gameplay Loop
