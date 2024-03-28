@@ -20,10 +20,9 @@ My primary responsibility was Game Design along with the role of the Director.
 The tasks I undertook can be can be grouped as follows:
 
 <table style="border-collapse: collapse;">
-
 	<tr>
 		<td style="vertical-align:top;">
-			<h4 style="text-align: center;">Director</h4>
+			<h4 style="text-align: center;">Game Designer</h4>
 				<ul>
 				  <li>
 					Designed the Core Gameplay Loop
@@ -67,7 +66,7 @@ The tasks I undertook can be can be grouped as follows:
 				</ul>		
 		</td>
 		<td style="vertical-align:top">
-				h4 style="text-align: center;">Director</h4>
+				<h4 style="text-align: center;">Director</h4>
 				 <ul>
 				  <li>Brainstormed the main game idea and mechanics to set the vision</li>
 				  <li>Mediated the ideation process</li>
