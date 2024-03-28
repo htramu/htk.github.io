@@ -11,7 +11,7 @@ preview: /assets/wiw.png
 ![Picture 3](/assets/wiw_3.jpg)
 ![Picture 4](/assets/wiw_4.jpg)
 
-This is a submission for [Easter Jam 2024](https://itch.io/jam/easter-jam-2024), developed using the Unity engine. The overall theme for the game jam was "hunting" and the jam ran for a week. The game aimed to be a 3rd person 3D auditory hunting game, where the player follows audio cues of animals and catches them with a rhythm mini-game.
+This is a submission for [Easter Jam 2024](https://itch.io/jam/easter-jam-2024), developed using the Unity (2022.3.22f1) engine. The overall theme for the game jam was "hunting" and the jam ran for a week. The game aimed to be a 3rd person 3D auditory hunting game, where the player follows audio cues of animals and catches them with a rhythm mini-game.
 
 Our team consisted of nine people, including me.
 
@@ -21,8 +21,8 @@ The tasks I undertook can be can be grouped as follows:
 
 <table>
   <tr>
-    <td>
-		 <h3 style="text-align: center;">Game Designer</h3>
+    <td style="border-right: 1px solid gray; height: 100px;">
+		 <h4 style="text-align: center;">Game Designer</h4>
 			<ul>
 			  <li>
 				Designed Core Gameplay Loop
@@ -68,7 +68,7 @@ The tasks I undertook can be can be grouped as follows:
 	</td>
 	
     <td style="vertical-align:top">
-		 <h3 style="text-align: center;">Director</h3>
+		 <h4 style="text-align: center;">Director</h4>
 			 <ul>
 			  <li>Brainstormed the main game idea and mechanics to set the vision</li>
 			  <li>Mediated the ideation process</li>
