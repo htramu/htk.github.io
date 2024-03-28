@@ -21,8 +21,8 @@ The tasks I undertook can be can be grouped as follows:
 
 <table>
   <tr>
-    <td style="text-align:center">
-		 <h3>Game Designer</h3>
+    <td>
+		 <h3 style="text-align: center;">Game Designer</h3>
 			<ul>
 			  <li>
 				Designed Core Gameplay Loop
@@ -67,12 +67,12 @@ The tasks I undertook can be can be grouped as follows:
 		
 	</td>
 	
-    <td style="vertical-align:top;text-align:center">
-		 <h3>Director</h3>
+    <td style="vertical-align:top">
+		 <h3 style="text-align: center;">Director</h3>
 			 <ul>
 			  <li>Brainstormed the main game idea and mechanics to set the vision</li>
 			  <li>Mediated the ideation process</li>
-			  <li>Made decisions about:
+			  <li>Finalized decisions about:
 			<ul>
 			  <li>Camera (3rd person)</li>
 			  <li>Graphic style (3D)</li>
@@ -81,7 +81,7 @@ The tasks I undertook can be can be grouped as follows:
 			  </li>
 			  <li>Set up the development teams</li>
 			  <li>Created a development roadmap</li>
-			  <li>Handled administrative tasks:
+			  <li>Managed administrative tasks:
 				<ul>
 				  <li>Setting up a Github repository</li>
 				  <li>Creating an itch.io page</li>
@@ -94,6 +94,7 @@ The tasks I undertook can be can be grouped as follows:
   </tr>
 </table>
 
+[Mechanics Design Document](assets/Wiw_Mechanics.pdf)
 
 
 ### Game Page on itch.io
