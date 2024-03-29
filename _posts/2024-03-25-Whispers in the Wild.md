@@ -49,7 +49,7 @@ img {
 
 /* Position the "next button" to the right */
 .next {
-  right: 5px;
+  right: 25px;
   border-radius: 3px 0 0 3px;
 }
 
