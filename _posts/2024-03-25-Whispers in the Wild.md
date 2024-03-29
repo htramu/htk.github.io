@@ -49,7 +49,7 @@ img {
 
 /* Position the "next button" to the right */
 .next {
-  right: 0;
+  right: 5px;
   border-radius: 3px 0 0 3px;
 }
 
@@ -105,27 +105,27 @@ img {
   <!-- Full-width images with number text -->
   <div class="mySlides">
     <div class="numbertext">1 / 5</div>
-      <img src="/assets/wiw_1.jpg" style="width:150%">
+      <img src="/assets/wiw_1.jpg" style="width:100%">
   </div>
 
   <div class="mySlides">
     <div class="numbertext">2 / 5</div>
-      <img src="/assets/wiw_2.jpg" style="width:150%">
+      <img src="/assets/wiw_2.jpg" style="width:100%">
   </div>
 
   <div class="mySlides">
     <div class="numbertext">3 / 5</div>
-      <img src="/assets/wiw_3.jpg" style="width:150%">
+      <img src="/assets/wiw_3.jpg" style="width:100%">
   </div>
 
   <div class="mySlides">
     <div class="numbertext">4 / 5</div>
-      <img src="/assets/wiw_4.jpg" style="width:150%">
+      <img src="/assets/wiw_4.jpg" style="width:100%">
   </div>
   
     <div class="mySlides">
     <div class="numbertext">5 / 5</div>
-      <img src="/assets/wiw_5.jpg" style="width:150%">
+      <img src="/assets/wiw_5.jpg" style="width:100%">
   </div>
   
   <!-- Next and previous buttons -->
