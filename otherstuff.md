@@ -6,7 +6,7 @@ permalink: /otherstuff/
 
 ## Paper Tabletop Game Project
 
-### Meteor Awareness
+<h3>Meteor Awareness</h3>
 
 ![Picture 1](/assets/metAwe.png)
 
@@ -16,11 +16,11 @@ Meteor Awareness is my first ever attempt to create a game. It is a simple paper
 
 *[Game Rules](/assets/meteoriteAwareness-Rules.pdf)*
 
-## Drawings
+<h3>Drawings</h3>
 
 <blockquote class="imgur-embed-pub" lang="en" data-id="a/gTdwfMR" data-context="false" ><a href="//imgur.com/a/gTdwfMR">Drawings</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
-## Lego Designs (MOC)
+<section id="moc"><h3>Lego Designs (MOC)</section></h3>
 
  I design small LEGO sets (dubbed as My Own Creation - MOC by LEGO enthusiasts) as a hobby, mainly in the form of LEGO Brickheadz, using BrickLink's software [BrickLink Studio 2.0](https://www.bricklink.com/v3/studio/download.page){:target="_blank"}. 
  
