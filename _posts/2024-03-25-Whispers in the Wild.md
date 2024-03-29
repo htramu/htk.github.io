@@ -85,7 +85,7 @@ img {
 /* Six columns side by side */
 .column {
   float: left;
-  width: 16.66%;
+  width: 20%;
 }
 
 /* Add a transparency effect for thumnbail images */
@@ -105,27 +105,27 @@ img {
   <!-- Full-width images with number text -->
   <div class="mySlides">
     <div class="numbertext">1 / 5</div>
-      <img src="/assets/wiw_1.jpg" style="width:95%">
+      <img src="/assets/wiw_1.jpg" style="width:98%">
   </div>
 
   <div class="mySlides">
     <div class="numbertext">2 / 5</div>
-      <img src="/assets/wiw_2.jpg" style="width:95%">
+      <img src="/assets/wiw_2.jpg" style="width:98%">
   </div>
 
   <div class="mySlides">
     <div class="numbertext">3 / 5</div>
-      <img src="/assets/wiw_3.jpg" style="width:95%">
+      <img src="/assets/wiw_3.jpg" style="width:98%">
   </div>
 
   <div class="mySlides">
     <div class="numbertext">4 / 5</div>
-      <img src="/assets/wiw_4.jpg" style="width:95%">
+      <img src="/assets/wiw_4.jpg" style="width:98%">
   </div>
   
     <div class="mySlides">
     <div class="numbertext">5 / 5</div>
-      <img src="/assets/wiw_5.jpg" style="width:95%">
+      <img src="/assets/wiw_5.jpg" style="width:98%">
   </div>
   
   <!-- Next and previous buttons -->
@@ -150,7 +150,8 @@ img {
     </div>
     <div class="column">
       <img class="demo cursor" src="/assets/wiw_4.jpg" style="width:100%" onclick="currentSlide(4)">
-    </div>    <div class="column">
+    </div>    
+	<div class="column">
       <img class="demo cursor" src="/assets/wiw_5.jpg" style="width:100%" onclick="currentSlide(5)">
     </div>
   </div>
