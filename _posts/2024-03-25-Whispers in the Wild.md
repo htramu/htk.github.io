@@ -49,7 +49,7 @@ img {
 
 /* Position the "next button" to the right */
 .next {
-  right: 25px;
+  right: 20px;
   border-radius: 3px 0 0 3px;
 }
 
@@ -85,7 +85,7 @@ img {
 /* Columns side by side */
 .column {
   float: left;
-  width: 20%;
+  width: 35%;
 }
 
 /* Add a transparency effect for thumnbail images */
