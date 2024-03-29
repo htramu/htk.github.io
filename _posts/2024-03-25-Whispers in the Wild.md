@@ -135,16 +135,16 @@ img {
   <!-- Thumbnail images -->
   <div class="row">
     <div class="column">
-      <img class="demo cursor" src="/assets/wiw_1.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+      <img class="demo cursor" src="/assets/wiw_1.jpg" style="width:100%" onclick="currentSlide(1)">
     </div>
     <div class="column">
-      <img class="demo cursor" src="/assets/wiw_2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+      <img class="demo cursor" src="/assets/wiw_2.jpg" style="width:100%" onclick="currentSlide(2)">
     </div>
     <div class="column">
-      <img class="demo cursor" src="/assets/wiw_3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+      <img class="demo cursor" src="/assets/wiw_3.jpg" style="width:100%" onclick="currentSlide(3)">
     </div>
     <div class="column">
-      <img class="demo cursor" src="/assets/wiw_4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+      <img class="demo cursor" src="/assets/wiw_4.jpg" style="width:100%" onclick="currentSlide(4)">
     </div>
   </div>
 </div> 
