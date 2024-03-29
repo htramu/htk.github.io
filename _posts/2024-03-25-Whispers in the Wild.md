@@ -105,22 +105,22 @@ img {
   <!-- Full-width images with number text -->
   <div class="mySlides">
     <div class="numbertext">1 / 4</div>
-      <img src="/assets/wiw_1.jpg" style="width:100%">
+      <img src="/assets/wiw_1.jpg" style="width:95%">
   </div>
 
   <div class="mySlides">
     <div class="numbertext">2 / 4</div>
-      <img src="/assets/wiw_2.jpg" style="width:100%">
+      <img src="/assets/wiw_2.jpg" style="width:95%">
   </div>
 
   <div class="mySlides">
     <div class="numbertext">3 / 4</div>
-      <img src="/assets/wiw_3.jpg" style="width:100%">
+      <img src="/assets/wiw_3.jpg" style="width:95%">
   </div>
 
   <div class="mySlides">
     <div class="numbertext">4 / 4</div>
-      <img src="/assets/wiw_4.jpg" style="width:100%">
+      <img src="/assets/wiw_4.jpg" style="width:95%">
   </div>
   
   <!-- Next and previous buttons -->
