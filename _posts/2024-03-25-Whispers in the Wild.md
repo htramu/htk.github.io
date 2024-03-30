@@ -240,7 +240,7 @@ The tasks I undertook can be can be grouped as follows:
 		<td style="vertical-align:top">
 				<h4 style="text-align: center;">Director</h4>
 				 <ul>
-				  <li>Brainstormed the main game idea and mechanics to set the vision</li>
+				  <li>Come up with the main game idea and mechanics to set the vision of the game</li>
 				  <li>Mediated the ideation process</li>
 				  <li>Finalized decisions about:
 				<ul>
