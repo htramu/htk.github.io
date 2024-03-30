@@ -104,33 +104,33 @@ img {vertical-align: middle;}
 
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
-    <div class="numbertext">1 / 55</div>
+    <div class="numbertext">1 / 5</div>
     <img src="/assets/wiw_1.jpg" style="width:100%">
-    <div class="text">Caption Text</div>
+    <div class="text">Screenshots</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">2 / 5</div>
     <img src="/assets/wiw_2.jpg" style="width:100%">
-    <div class="text">Caption Two</div>
+    <div class="text">Screenshots</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">3 / 5</div>
     <img src="/assets/wiw_3.jpg" style="width:100%">
-    <div class="text">Caption Three</div>
+    <div class="text">Screenshots</div>
   </div>
   
     <div class="mySlides fade">
     <div class="numbertext">4 / 5</div>
     <img src="/assets/wiw_4.jpg" style="width:100%">
-    <div class="text">Caption Three</div>
+    <div class="text">Screenshots</div>
   </div>
   
     <div class="mySlides fade">
     <div class="numbertext">5 / 5</div>
     <img src="/assets/wiw_5.jpg" style="width:100%">
-    <div class="text">Caption Three</div>
+    <div class="text">Screenshots</div>
   </div>
 
   <!-- Next and previous buttons -->
@@ -144,6 +144,8 @@ img {vertical-align: middle;}
   <span class="dot" onclick="currentSlide(1)"></span>
   <span class="dot" onclick="currentSlide(2)"></span>
   <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
 </div> 
 
 <script>

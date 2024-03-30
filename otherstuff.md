@@ -16,7 +16,7 @@ Meteor Awareness is my first ever attempt to create a game. It is a simple paper
 
 *[Game Rules](/assets/meteoriteAwareness-Rules.pdf)*
 
-<h3>Drawings</h3>
+<section id="draw"><h3>Drawings</h3></section>
 
 <blockquote class="imgur-embed-pub" lang="en" data-id="a/gTdwfMR" data-context="false" ><a href="//imgur.com/a/gTdwfMR">Drawings</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
