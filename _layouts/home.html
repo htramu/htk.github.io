@@ -4,6 +4,20 @@
 			p {
 				text-align: justify;
 			}
+			
+        .image-frame {
+            border: 5px solid #333;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+            display: inline-block;
+            padding: 5px;
+            background-color: white;
+        }
+		
+        .image-frame img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
 	</style>
 	
   {% include head.html %}
@@ -20,7 +34,9 @@
 			<table border="0" cellspacing="0" cellpadding="0">
 				<tr>
 					<td width="225">
-						<img src="/assets/aboutme.jpg" alt="About Me Image">
+						<div class="image-frame">
+                            <img src="/assets/aboutme.jpg" alt="About Me Image">
+                        </div>
 					</td>
 					<td>
 						<p>
