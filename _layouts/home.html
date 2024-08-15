@@ -18,6 +18,20 @@
             max-width: 100%;
             height: auto;
         }
+		
+		.video-frame {
+            border: 5px solid #333;
+            border-radius: 4px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+            display: inline-block;
+        }
+        .video-frame video {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+		
 	</style>
 	
   {% include head.html %}
@@ -74,7 +88,7 @@
 								</p>
 						</td>
 						<td valign="top">
-						<div class="image-frame">
+						<div class="video-frame">
                             <video autoplay loop muted>
 							  <source src="/assets/movie.mp4" type="video/mp4" >
 							</video>
