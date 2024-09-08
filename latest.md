@@ -101,32 +101,38 @@ img {vertical-align: middle;}
 
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
-    <div class="numbertext">1 / 5</div>
+    <div class="numbertext">1 / 6</div>
     <img src="/assets/hedgeShot_1.jpg" style="width:100%">
     <div class="text">Screenshots</div>
   </div>
 
   <div class="mySlides fade">
-    <div class="numbertext">2 / 5</div>
+    <div class="numbertext">2 / 6</div>
     <img src="/assets/hedgeShot_2.jpg" style="width:100%">
     <div class="text">Screenshots</div>
   </div>
 
   <div class="mySlides fade">
-    <div class="numbertext">3 / 5</div>
+    <div class="numbertext">3 / 6</div>
     <img src="/assets/hedgeShot_3.jpg" style="width:100%">
     <div class="text">Screenshots</div>
   </div>
   
     <div class="mySlides fade">
-    <div class="numbertext">4 / 5</div>
+    <div class="numbertext">4 / 6</div>
     <img src="/assets/hedgeShot_4.jpg" style="width:100%">
     <div class="text">Screenshots</div>
   </div>
   
     <div class="mySlides fade">
-    <div class="numbertext">5 / 5</div>
+    <div class="numbertext">5 / 6</div>
     <img src="/assets/hedgeShot_5.jpg" style="width:100%">
+    <div class="text">Screenshots</div>
+  </div>
+  
+      <div class="mySlides fade">
+    <div class="numbertext">6 / 6</div>
+    <img src="/assets/hedgeShot_6.jpg" style="width:100%">
     <div class="text">Screenshots</div>
   </div>
 
@@ -192,6 +198,4 @@ What I've done in this jam can be listed as follows:
 
 ### Game Page on itch.io
 
-	<iframe frameborder="0" src="https://itch.io/embed/2878493?linkback=true&amp;border_width=0" width="206" height="165">
-		<a href="https://winter-witch.itch.io/hedgeshot">HedgeShot by Winter Witch, Umarth, meowroz, dragonmushu3</a>
-	</iframe>
+<iframe frameborder="0" src="https://itch.io/embed/2878493?linkback=true&amp;border_width=0" width="206" height="165"><a href="https://winter-witch.itch.io/hedgeshot">HedgeShot by Winter Witch, Umarth, meowroz, dragonmushu3</a></iframe>
