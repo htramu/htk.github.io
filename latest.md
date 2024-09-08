@@ -1,9 +1,6 @@
 ---
 layout: post
 title:  "HedgeShot"
-summary: "Game Designer /Director"
-date:   2024-08-01 00:00:00
-## preview: /assets/wiw.png
 ---
 <style>
 * {box-sizing: border-box}
@@ -105,31 +102,31 @@ img {vertical-align: middle;}
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
     <div class="numbertext">1 / 5</div>
-    <img src="/assets/wiw_1.jpg" style="width:100%">
+    <img src="/assets/hedgeShot_1.jpg" style="width:100%">
     <div class="text">Screenshots</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">2 / 5</div>
-    <img src="/assets/wiw_2.jpg" style="width:100%">
+    <img src="/assets/hedgeShot_2.jpg" style="width:100%">
     <div class="text">Screenshots</div>
   </div>
 
   <div class="mySlides fade">
     <div class="numbertext">3 / 5</div>
-    <img src="/assets/wiw_3.jpg" style="width:100%">
+    <img src="/assets/hedgeShot_3.jpg" style="width:100%">
     <div class="text">Screenshots</div>
   </div>
   
     <div class="mySlides fade">
     <div class="numbertext">4 / 5</div>
-    <img src="/assets/wiw_4.jpg" style="width:100%">
+    <img src="/assets/hedgeShot_4.jpg" style="width:100%">
     <div class="text">Screenshots</div>
   </div>
   
     <div class="mySlides fade">
     <div class="numbertext">5 / 5</div>
-    <img src="/assets/wiw_5.jpg" style="width:100%">
+    <img src="/assets/hedgeShot_5.jpg" style="width:100%">
     <div class="text">Screenshots</div>
   </div>
 
@@ -179,96 +176,22 @@ function showSlides(n) {
 
 
 ---
-<!-- ![Picture 1](/assets/wiw_1.jpg)
-![Picture 2](/assets/wiw_2.jpg)
-![Picture 3](/assets/wiw_3.jpg)
-![Picture 4](/assets/wiw_4.jpg) -->
 
 
-This is a submission for [Easter Jam 2024](https://itch.io/jam/easter-jam-2024), developed using the Unity (2022.3.22f1) engine. The overall theme for the game jam was "hunting" and the jam ran for a week. The game aimed to be a 3rd person 3D auditory hunting game, where the player follows audio cues of animals and catches them with a rhythm mini-game.
+This is a submission for [GDFG TEAM JAM #4](https://itch.io/jam/gdfg-team-jam-4), developed using the Unreal 5 engine via Blueprints. The overall theme for the game jam was "Strange Power Ups" and the jam ran for a month. 
 
-Our team consisted of ten people, including me.
+Our team consisted of four people, including me.
 
-My primary responsibility was Game Design along with the role of the Director.
+My primary responsibility was Game Design, but I also undertook the roles of the Director, Level Designer and Sound Designer, and done some small coding tasks.
 
-The tasks I undertook can be can be grouped as follows:
+What I've done in this jam can be listed as follows:
 
-<table style="border-collapse: collapse;">
-	<tr>
-		<td style="vertical-align:top;">
-			<h4 style="text-align: center;">Game Designer</h4>
-				<ul>
-				  <li>
-					Designed the Core Gameplay Loop
-					<ul>
-					  <li>Designed a game "day" where actual gameplay occurs</li>
-					  <li>Designed the playthrough of 5 "days"</li>
-					  <li>Designed a simple score system on game over</li>
-					</ul>
-				  </li>
-				  <li>
-					Designed Player Mechanics
-					<ul>
-					  <li>Movement (WASD-Mouse)</li>
-					  <li>Camera positioning</li>
-					  <li>Dash mechanic</li>
-					  <li>Stealth mechanic</li>
-					</ul>
-				  </li>
-				  <li>
-					Designed World Map Mechanics
-					<ul>
-					  <li>Designed audio clue mechanic</li>
-					</ul>
-				  </li>
-				  <li>
-					Designed Animal Mechanics
-					<ul>
-					  <li>Designed number of the animal types and animal variables</li>
-					  <li>Designed a mechanic called "behavior groups" to add variety</li>
-					  <li>Designed Animal positioning and patrol behavior</li>
-					</ul>
-				  </li>
-				  <li>
-					Designed Gameplay Mechanics
-					<ul>
-					  <li>Designed animal "hunting" mechanic</li>
-					  <li>Designed photography mode mechanics</li>
-					  <li>Designed mini-games and mini game UIs</li>
-					</ul>
-				  </li>
-				</ul>		
-		</td>
-		<td style="vertical-align:top">
-				<h4 style="text-align: center;">Director</h4>
-				 <ul>
-				  <li>Come up with the main game idea and mechanics to set the vision of the game</li>
-				  <li>Mediated the ideation process</li>
-				  <li>Finalized decisions about:
-				<ul>
-				  <li>Camera (3rd person)</li>
-				  <li>Graphic style (3D)</li>
-				  <li>Mini-games, etc.</li>
-				</ul>
-				  </li>
-				  <li>Managed a team of ten people in a 7 days deadline</li>
-				  <li>Set up the development teams</li>
-				  <li>Created a development roadmap</li>
-				  <li>Managed administrative tasks:
-					<ul>
-					  <li>Setting up a Github repository</li>
-					  <li>Creating an itch.io page</li>
-					  <li>Handling team member invites, etc.</li>
-					</ul>
-				  </li>
-				</ul>
-		</td>
-	</tr>
-</table>
 
-[Mechanics Design Document](/assets/winwMechanics.pdf)
+
 
 
 ### Game Page on itch.io
 
-<iframe frameborder="0" src="https://itch.io/embed/2583046" width="552" height="167"><a href="https://htramu.itch.io/whispersinthewild">Whispers in the Wild</a></iframe>
+	<iframe frameborder="0" src="https://itch.io/embed/2878493?linkback=true&amp;border_width=0" width="206" height="165">
+		<a href="https://winter-witch.itch.io/hedgeshot">HedgeShot by Winter Witch, Umarth, meowroz, dragonmushu3</a>
+	</iframe>
