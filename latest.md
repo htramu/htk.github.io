@@ -187,12 +187,28 @@ function showSlides(n) {
 
 This is a submission for [GDFG TEAM JAM #4](https://itch.io/jam/gdfg-team-jam-4), developed using the Unreal 5 engine via Blueprints. The overall theme for the game jam was "Strange Power Ups" and the jam ran for a month. 
 
-Our team consisted of four people, including me.
+Our team consisted of four people, including me. We choose genre to be a First Person Shooter, in a hedge maze like environment where player shoots hordes of zombies, in "boomer shooter" style. A dark and nighttime setting is chosen, with a green color prevalent across the gameplay arena, to create a sickly and unnatural feeling to the player. We limited game to be a just a level in order to meet up with the restrictions (jam duration, resources etc.).
 
 My primary responsibility was Game Design, but I also undertook the roles of the Director, Level Designer and Sound Designer, and done some small coding tasks.
 
 What I've done in this jam can be listed as follows:
 
+Designed the power-up system, level flow, main loop, weapon characteristics and the flow of the level. First draft of my design notes can be found here and the settled (together with the team) flow of the gameplay can be found below:
+
+Made key decisions such as removal of the store idea, ingredient drops, loot drops and crafting (which all of them were in the first ideation process), curbed out over-the-scope ideas (like 2-3 more enemy types which would've overwhelmed our 3D artist) and made sure the all team members were on the same page. 
+
+Designed the whole level layout. I have done the basic block-out, using in engine tools of Unreal Engine. I took inspiration from [The labyrinth of Versailles](https://en.wikipedia.org/wiki/The_labyrinth_of_Versailles) when I started to design the level, and iterate on the design process, instead of copying the real life place. Our 3D artist later filled the block-out and finished the level.
+
+Set up a miro page in order to create the roadmap for our development, set duties for all team members, create a pool for ideation process. Set the MVP goals (can be seen below) of the team and the MVP deadline, which the team accomplished finishing the MVP one day before the deadline.
+
+
+Created sound effects via AI tools, as all of us lacked the skills or experience to create sound effects using conventional tools. 
+
+Programming tasks:
+Created the sine movement sphere object in Unreal Engine using blueprints. Movement, destroy event
+Created a rotating box shaped object in Unreal Engine using blueprints. Which later turned into the weapon pickup.
+Created main menu layout.
+Implemented sounds and synchronize them with various animations and events.
 
 
 
